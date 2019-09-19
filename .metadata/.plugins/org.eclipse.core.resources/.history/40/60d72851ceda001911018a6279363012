@@ -1,0 +1,37 @@
+package com.loan;
+
+public class PersonalLoan extends Loan {
+	
+
+	final String type = "PersonalLoan";
+	
+	private int fixedCharges;
+
+	public int getFixedCharges() {
+		return fixedCharges;
+	}
+
+	public void setFixedCharges(int fixedCharges) {
+		this.fixedCharges = fixedCharges;
+	}
+	
+	public PersonalLoan(int baseRate, String issuedBy, int fixedCharges) {
+		super(baseRate, issuedBy);
+		this.fixedCharges = fixedCharges;
+	}
+	
+	
+	public double CalculateInterestOnLoan(int term) {
+		double interestRate;
+	    if(term <= 15) {
+	    	  interestRate = 0.09;
+	    	  return interestRate;
+	    }  
+	    else {
+	    	 interestRate = 0.15;
+	    	 return interestRate;
+	    }
+		
+	}
+
+}

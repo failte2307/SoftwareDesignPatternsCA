@@ -1,0 +1,15 @@
+package com.loan;
+
+public class Main {
+	public static void main (String args[]) {
+		
+		double TotalInterest;
+		Customer Mark = new Customer("Mark O Donoghue", 12345, "Killarney", 1000, 10000 );
+		double CustomerRate = Mark.CalculateInterestCreditRating(Mark.getCreditRating());
+		System.out.println(CustomerRate);
+		Mortgage loan = new Mortgage(1, "Jennifer", 27);
+		double loan.CalculateInterestOnLoan();
+		
+	}
+
+}

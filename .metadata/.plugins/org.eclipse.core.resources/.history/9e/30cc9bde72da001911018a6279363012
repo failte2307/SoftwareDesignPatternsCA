@@ -1,0 +1,53 @@
+package com.loan;
+
+public class Mortgage extends Loan {
+	
+	final String TYPE = "Mortgage";
+	
+	private int term;
+	
+	public int getTerm() {
+		return term;
+	}
+	public void setTerm(int term) {
+		this.term = term;
+	}
+	
+	
+	public Mortgage(int baseRate, String issuedBy, int term) {
+		super(baseRate, issuedBy);
+		this.term = term;
+	}
+	
+	
+	public double CalculateInterestOnLoan(int term) {
+		double interestRate;
+	    if(term <= 15) {
+	    	 return interestRate = 0.09;
+	    }  
+	    else {
+	    	return interestRate = 0.15;	
+	    }
+		
+	}
+	
+	public double CustomerJobStatusPenalty(Customer cust) {
+		double interestRate ;
+		if(cust.isemployed()) {
+			 interestRate = 0.00;
+			 return interestRate;
+		}
+		else{
+			 interestRate = 0.10;
+			 return interestRate;
+		}
+			
+		}
+	}
+	
+	
+   
+	
+	
+
+}

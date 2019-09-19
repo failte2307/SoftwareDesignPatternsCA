@@ -1,0 +1,10 @@
+package com.loan;
+
+public class Customer {
+	
+	private String name;
+	private int accNo;
+	private String address;
+	private String name;
+
+}
