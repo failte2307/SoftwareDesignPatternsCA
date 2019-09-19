@@ -16,13 +16,13 @@ public class TestMortgage {
 	
 	@Test
 	public final void testCalculateInterestOnLoanByTermShort() {
-		assertEquals(0.15,mort.CalculateInterestOnLoanByTerm(mort.getTerm()),0.15);
+		assertEquals(0.09,mort.CalculateInterestOnLoanByTerm(mort.getTerm()),0.00);
 		
 	}
 	
     @Test 
     public final void TestCalculateInterestOnLoanByTermLong() {
-    	assertEquals(0.25,mort2.CalculateInterestOnLoanByTerm(mort2.getTerm()),0.25);
+    	assertEquals(0.15,mort2.CalculateInterestOnLoanByTerm(mort2.getTerm()),0.00);
     }
     
     

@@ -14,14 +14,13 @@ public class ShortTermLoanTest {
 
 	@Test
 	public final void testCalculateInterestOnLoanByTermSTLShort() {
-		assertEquals(0.15,shortTermLoan.CalculateInterestOnLoanByTerm(shortTermLoan.getTerm()),0.15);	
+		assertEquals(0.15,shortTermLoan.CalculateInterestOnLoanByTerm(shortTermLoan.getTerm()),0.00);	
 	}
 	
 
 	@Test
 	public final void testCalculateInterestOnLoanByTermSTLLong() {
-		assertEquals(0.25, shortTermLoan.CalculateInterestOnLoanByTerm(shortTermLoan2.getTerm()),0.25);
-		
+		assertEquals(0.25, shortTermLoan2.CalculateInterestOnLoanByTerm(shortTermLoan2.getTerm()),0.00);
 	}
 	
 	
