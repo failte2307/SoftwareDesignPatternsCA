@@ -4,14 +4,30 @@ package com.loan;
  * @author Mark
  *
  */
-public  class Loan {
+public abstract class Loan {
 	
 
+	
+	LoanBehaviour loanBehaviour;
+	
+
+    public LoanBehaviour getLoanBehaviour() {
+        return loanBehaviour;
+    }
+
+    public void setLoanBehaviour(LoanBehaviour loanBehaviour) {
+        this.loanBehaviour = loanBehaviour;
+    }
+    
+    public double CalculateInterestOnLoanByTerm(int term) {return loanBehaviour.CalculateInterestOnLoanByTerm(term); }
+    
 	private String issuedBy;
 	
 	private String type;
 	
     private int term;
+    
+    
 	
 	public int getTerm() {
 		return term;

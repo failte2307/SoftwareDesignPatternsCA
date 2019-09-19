@@ -1,0 +1,19 @@
+package com.loan;
+
+public class Mortgage implements Loan {
+	
+	
+	
+	public double CalculateInterestOnLoanByTerm(int term) {
+		double interestRate;
+	    if(term <= 15) {
+	    	 return interestRate = 0.09;
+	    }  
+	    else {
+	    	return interestRate = 0.15;	
+	    }
+		
+	}
+	
+	}
+	

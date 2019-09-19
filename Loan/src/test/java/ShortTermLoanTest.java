@@ -4,12 +4,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.loan.Mortgage;
-import com.loan.ShortTermLoan;
+import com.loan.STL;
 
 public class ShortTermLoanTest {
 
-	ShortTermLoan shortTermLoan = new ShortTermLoan("Shiela","Short Term Long", 4);
-	ShortTermLoan shortTermLoan2 = new ShortTermLoan("Shiela","Short Term Long", 6);
+	STL shortTermLoan = new STL("Shiela","Short Term Long", 4);
+	STL shortTermLoan2 = new STL("Shiela","Short Term Long", 6);
 	
 
 	@Test

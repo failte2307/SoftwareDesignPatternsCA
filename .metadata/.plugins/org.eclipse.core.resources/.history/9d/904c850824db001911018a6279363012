@@ -1,0 +1,17 @@
+package com.loan;
+
+public class Main {
+	public static void main (String args[]) {
+		
+		STL sTloan = new STL("Jennifer", "Short Term Loan", 14);
+		
+		Loan loan = new Mortgage("Jennifer", "Mortgage", 2);
+		loan.setLoanBehaviour(new LongTermLoan());
+		loan.CalculateInterestOnLoanByTerm(loan.getTerm());
+		
+		
+		
+		
+	}
+
+}

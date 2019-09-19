@@ -3,17 +3,20 @@ package com.loan;
 public class Main {
 	public static void main (String args[]) {
 		
-		double TotalInterest;
-		Customer Mark = new Customer("Mark O Donoghue", 12345, "Killarney", 1000, 10000 );
-		double customerRate = Mark.CalculateInterestCreditRating(Mark.getCreditRating());
-		System.out.println(customerRate);
+		
+		Loan mortgageLoan = new Mortgage("Jennifer", "Mortgage", 14);
+		mortgageLoan.setLoanBehaviour(new LongTermLoan());
+		double mortgageRate  = mortgageLoan.CalculateInterestOnLoanByTerm(mortgageLoan.getTerm());
+		System.out.println("Mortgage Rate : " + mortgageRate);
+		
+		Loan shortTermLoan = new Mortgage("Jennifer", "ShortTermLoan", 3);
+		shortTermLoan.setLoanBehaviour(new ShortTermLoan());
+		double sTLRate = shortTermLoan.CalculateInterestOnLoanByTerm(shortTermLoan.getTerm());
+		System.out.println("STL Rate :" + sTLRate);
 		
 		
-		Mortgage mortgage = new Mortgage("Jennifer", "Mortgage", 14);
-		double loanRate = mortgage.CalculateInterestOnLoanByTerm(14);
-		System.out.println(loanRate);
 		
-		ShortTermLoan sTloan = new ShortTermLoan("Jennifer", "Short Term Loan", 14);
+		
 		
 		
 	}
