@@ -1,0 +1,15 @@
+package Observer;
+
+public class Driver {
+	
+	private final EmailConfiguration emailConfig = new EmailConfiguration();
+	
+	public static void main (String args[]) {
+		
+		
+	
+	
+	emailConfig.sendEmail(email, customerName);
+	}
+
+}
