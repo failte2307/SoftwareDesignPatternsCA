@@ -1556,3 +1556,11 @@
 2019-09-26 21:05:51,234 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
 2019-09-26 21:14:47,592 [Worker-119: Launching Driver] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-09-26 21:14:47,593 [Worker-119: Launching Driver] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\main\resources
+2019-09-26 21:14:47,594 [Worker-119: Launching Driver] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-26 21:14:47,594 [Worker-119: Launching Driver] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2019-09-26 21:39:49,176 [Worker-126: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-26 21:39:49,178 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\main\resources
+2019-09-26 21:39:49,179 [Worker-126: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-26 21:39:49,180 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2019-09-26 21:40:21,574 [Worker-117: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-26 21:40:21,576 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\main\resources

@@ -42,7 +42,7 @@ public class EmailConfiguration {
         Message msg = new MimeMessage(session);
 
         try {
-			InternetAddress sender = new InternetAddress("failte2307@gmail.com", "Goliath");
+			InternetAddress sender = new InternetAddress("failte2307@gmail.com", "JRI");
 			msg.setFrom(sender);
         } catch (UnsupportedEncodingException e) {
 			e.printStackTrace();

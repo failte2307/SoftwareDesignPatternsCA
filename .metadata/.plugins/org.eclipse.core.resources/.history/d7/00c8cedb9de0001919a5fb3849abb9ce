@@ -9,7 +9,7 @@ public class Driver {
 		
 	
 	
-	emailConfig.sendEmail("jteahan98@gmail.com", "Test");
+	emailConfig.sendEmail("jteahan98@gmail.com", "suck a big dick");
 	
 	}
 
