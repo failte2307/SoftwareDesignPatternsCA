@@ -1,0 +1,13 @@
+package Observer;
+
+public class Payment {
+	
+	private int paymentId;
+	
+	private int customerId;
+	
+	private String transactionCountry;
+	
+	private double amount;
+
+}

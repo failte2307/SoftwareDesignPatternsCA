@@ -1,0 +1,30 @@
+package Observer;
+
+
+import com.twilio.Twilio;
+import com.twilio.rest.api.v2010.account.Message;
+import com.twilio.type.PhoneNumber;
+
+
+public class SMSDriver {
+	
+
+	    // Find your Account Sid and Auth Token at twilio.com/console
+	    public static final String ACCOUNT_SID =
+	            "ACdbf425a5c9c69db3f39e69c6b30ce388";
+	    public static final String AUTH_TOKEN =
+	            "74eb1af7c5cb2d8fd805eefec15e55d5";
+
+	    public static void main(String[] args) {
+	        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+
+	        Message message = Message
+	                .creator(new PhoneNumber("+353 83 838 8104"), // to
+	                        new PhoneNumber("+353 83 838 8104"), // from
+	                        "Where's Wallace?")
+	                .create();
+
+	        System.out.println(message.getSid());
+	    }
+	}
+
