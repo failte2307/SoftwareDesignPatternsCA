@@ -22,16 +22,32 @@ public class EmailConfiguration {
 	final String password = "failte12345";
 	
 	public void sendEmail(String customerName, double amount, Date transactionDate, Timestamp transactionTime) {
-	Properties props = System.getProperties();
-	props = configureProperties();	
+    Properties props = System.getProperties();
+	props = configureProperties();
+	
     try {
         Session session = Session.getInstance(props, new javax.mail.Authenticator() {
-            protected PasswordAuthentication getPasswordAuthentication() {;
+            protected PasswordAuthentication getPasswordAuthentication() {
+            	System.out.println("Test");
                 return new PasswordAuthentication(username, password);
             }
         });
-        Message msg = new MimeMessage(session);  
-        configureMessage(msg,"Mark");
+
+        Message msg = new MimeMessage(session);
+
+        try {
+			InternetAddress sender = new InternetAddress("failte2307@gmail.com", "Goliath");
+			msg.setFrom(sender);
+        } catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+        
+        InternetAddress[] addresses = InternetAddress.parse("shaunalily9@gmail.com"); 
+        msg.addRecipients(RecipientType.TO, addresses);
+        msg.setSubject("Golaith National Bank - Unusal Activity"); 
+        msg.setText("Hi, " + customerName + "Test"); 
+        msg.setSentDate(new Date());
+        
         Transport.send(msg);
         System.out.println("Message sent.");
     } catch (MessagingException e) {
@@ -51,23 +67,6 @@ public class EmailConfiguration {
 		  props.put("mail.store.protocol", "pop3");
 		  props.put("mail.transport.protocol", "smtp");
 		  return props;
-	}
-	
-	public void configureMessage(Message msg, String customerName ) {
-		try {
-		InternetAddress sender = new InternetAddress("failte2307@gmail.com", "Goliath National Bank");
-		msg.setFrom(sender);
-        InternetAddress[] addresses = InternetAddress.parse("shaunalily9@gmail.com"); 
-        msg.addRecipients(RecipientType.TO, addresses);
-        msg.setSubject("Golaith National Bank - Unusal Activity"); 
-        msg.setText("Hi, " + customerName + "Test"); 
-        msg.setSentDate(new Date()); 
-		}
-		catch (MessagingException e) {
-	        System.out.println("Error, cause: " + e);
-	    } catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
 	}
 
 }

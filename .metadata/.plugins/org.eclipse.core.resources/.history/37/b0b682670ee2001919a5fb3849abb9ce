@@ -11,7 +11,7 @@ public class EmailNotification implements Observer {
 	
 	public EmailNotification(TransactionData transactionData) {
 		this.transactionData = transactionData;
-		transactionData.registerObserver(this);
+		transactionData.registerObserver((java.util.Observer) this);
 		
 	}
 

@@ -30,14 +30,12 @@ public class EmailConfiguration {
                 return new PasswordAuthentication(username, password);
             }
         });
-        Message msg = new MimeMessage(session);  
-        configureMessage(msg,"Mark");
+        Message msg = new MimeMessage(session);   
         Transport.send(msg);
         System.out.println("Message sent.");
     } catch (MessagingException e) {
         System.out.println("Error, cause: " + e);
     }
-}
 	
 	public Properties configureProperties() {
 		  Properties props = System.getProperties();
