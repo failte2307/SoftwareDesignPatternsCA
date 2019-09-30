@@ -75,7 +75,7 @@ public class Transaction {
 		this.amount = amount;
 		this.transactionDate = transactionDate;
 		this.transactionTime = transactionTime;
-		this.setSuspiciousTransaction(isSuspiciousTransaction);
+		this.isSuspiciousTransaction = isSuspiciousTransaction;
 	}
 	
 	
@@ -87,14 +87,6 @@ public class Transaction {
 		else {
 			return suspiciousTransaction = false;
 		}
-	}
-
-	public boolean isSuspiciousTransaction() {
-		return isSuspiciousTransaction;
-	}
-
-	public void setSuspiciousTransaction(boolean isSuspiciousTransaction) {
-		this.isSuspiciousTransaction = isSuspiciousTransaction;
 	}
 
 
