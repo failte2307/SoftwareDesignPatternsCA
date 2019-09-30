@@ -5089,3 +5089,9 @@ Contains: Missing com.twilio.sdk:twilio:jar:javadoc:7.X.X
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:39:59.942
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 22:13:29.082
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 22:13:29.084
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

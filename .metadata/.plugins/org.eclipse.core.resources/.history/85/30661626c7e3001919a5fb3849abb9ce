@@ -16,8 +16,6 @@ public class Transaction {
 	private Date transactionDate;
 	
 	private Timestamp transactionTime;
-	
-	private boolean suspiciousTransaction;
 
 	public int getPaymentId() {
 		return paymentId;
@@ -75,17 +73,6 @@ public class Transaction {
 		this.amount = amount;
 		this.transactionDate = transactionDate;
 		this.transactionTime = transactionTime;
-	}
-	
-	
-	
-	public boolean checkForSuspiciousTransaction(String customerCountry, String transactionCountry, boolean suspiciousTransaction) {
-		if (customerCountry == transactionCountry ) {
-			 return suspiciousTransaction = true;
-		}	
-		else {
-			return suspiciousTransaction = false;
-		}
 	}
 
 
