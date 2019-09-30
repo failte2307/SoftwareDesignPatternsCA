@@ -14,9 +14,7 @@ public class Customer {
 	
 	private int creditRating;
 	
-	private boolean isEmail;
-	
-	private String Country;
+	private boolean isEmail; 
 	
 	private boolean isMobileNo;
 	
@@ -105,15 +103,6 @@ public class Customer {
 		this.isEmail = isEmail;
 		this.isMobileNo = isMobileNo;
 		this.isAddress = isAddress;
-		this.Country = Country;
-	}
-
-	public String getCountry() {
-		return Country;
-	}
-
-	public void setCountry(String country) {
-		Country = country;
 	}
 	
 	

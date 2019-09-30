@@ -4831,3 +4831,261 @@ Contains: Missing com.twilio.sdk:twilio:jar:javadoc:7.X.X
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 19:57:35.538
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:13.979
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:13.980
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:13.982
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:13.983
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.213
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.218
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.219
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.221
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.222
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:15.224
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:17.357
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:17.359
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:29.825
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:29.827
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:29.829
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:29.830
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:31.159
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:31.161
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:31.162
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:31.164
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.117
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.121
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.125
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.126
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.128
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.129
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:07:32.133
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:08:11.502
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:08:11.503
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:08.533
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:08.535
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:18.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:18.409
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:45.790
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:11:45.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:12:21.663
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:12:21.665
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:12:56.037
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:12:56.039
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:01.497
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:01.499
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:30.320
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:30.322
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:30.323
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:30.324
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:31.191
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:31.192
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:31.194
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:31.195
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.089
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.091
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.095
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.097
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.101
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.102
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:13:32.108
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:12.964
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:12.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:24.381
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:24.382
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:24.384
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:24.385
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:25.414
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:25.417
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:25.419
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:25.420
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.425
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.429
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.430
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.432
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.433
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:14:26.436
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:35:47.172
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:35:47.175
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:05.847
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:05.851
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:33.301
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:33.305
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:51.757
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:36:51.759
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:37:00.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:37:00.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:39:59.938
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-30 20:39:59.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
