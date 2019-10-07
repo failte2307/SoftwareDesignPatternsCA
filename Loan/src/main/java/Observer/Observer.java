@@ -5,6 +5,6 @@ import java.sql.Timestamp;
 
 public interface Observer {
 	
-    public void update(String customerName,double amount,Date transactionDate,Timestamp transactionTime, String transactionCountry);
+    public void update(String customerName,double amount,String transactionDate,String transactionTime, String transactionCountry, String email, String mobileNo);
     
 }

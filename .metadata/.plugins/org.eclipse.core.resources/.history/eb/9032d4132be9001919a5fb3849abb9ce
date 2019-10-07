@@ -13,9 +13,9 @@ public class SuspiciousTransactionData implements Subject {
 	
 	private double amount; 
 	
-	private String transactionDate;
+	private Date transactionDate;
 	
-	private String transactionTime;
+	private Timestamp transactionTime;
 	
 	private String transactionCountry;
 	
@@ -36,7 +36,7 @@ public class SuspiciousTransactionData implements Subject {
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = (Observer)observers.get(i);
-			observer.update(customerName,amount,transactionDate,transactionTime,transactionCountry, mobileNo, email);
+			observer.update(customerName,amount,transactionDate,transactionTime,transactionCountry);
 		}
 	}
 	
@@ -44,7 +44,7 @@ public class SuspiciousTransactionData implements Subject {
 		notifyObservers();
 	}
 	
-	public void setSuspiciousTransactionDetails(String customerName, double amount, String transactionDate, String transactionTime, String transactionCountry,String mobileNo, String email ) {
+	public void setSuspiciousTransactionDetails(String customerName, double amount, Date transactionDate, Timestamp transactionTime, String transactionCountry) {
 		this.customerName = customerName;
 		this.amount = amount;
 		this.transactionDate = transactionDate;
