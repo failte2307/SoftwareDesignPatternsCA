@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Observer.TransactionData&apos; to &apos;SuspiciousTransactionData&apos;&#x0D;&#x0A;- Original project: &apos;Loan&apos;&#x0D;&#x0A;- Original element: &apos;Observer.TransactionData&apos;&#x0D;&#x0A;- Renamed element: &apos;Observer.SuspiciousTransactionData&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TransactionData&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;Observer{TransactionData.java[TransactionData" matchStrategy="1" name="SuspiciousTransactionData" qualified="false" references="true" similarDeclarations="false" stamp="1570469014296" textual="false" version="1.0"/>
+</session>

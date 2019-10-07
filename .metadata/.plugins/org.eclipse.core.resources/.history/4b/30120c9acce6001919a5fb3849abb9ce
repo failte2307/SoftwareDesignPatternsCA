@@ -1,0 +1,46 @@
+package com.bookstorage.bookstorage;
+
+import com.couchbase.client.java.repository.annotation.Field;
+import com.couchbase.client.java.repository.annotation.Id;
+
+@Document
+public class Entity {
+		
+		@Id
+		private int id;
+		@Field
+		private String name;
+		@Field
+		private String type;
+
+		public Entity() {}
+		
+		public Entity(int id, String name, String type) {
+			this.id = id;
+			this.name = name;
+			this.type = type;
+		}
+		public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getType() {
+			return type;
+		}
+		public void setAddress(String type) {
+			this.type = type;
+		}
+		
+		
+
+	}
+
+}

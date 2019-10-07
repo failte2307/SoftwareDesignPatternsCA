@@ -6,11 +6,12 @@ public class Driver {
 	
 	public static void main (String args[]) {
 		
-		TransactionData data = new TransactionData();
+		SuspiciousTransactionData data = new SuspiciousTransactionData();
 		EmailNotification bla = new EmailNotification(data);
 		
-		TransactionData test = new TransactionData();
+		SuspiciousTransactionData test = new SuspiciousTransactionData();
 		data.setSuspiciousTransactionDetails("test", 1, null, null,null);
+		
 		
 	
 	}

@@ -5,11 +5,11 @@ import java.sql.Timestamp;
 
 public class EmailNotification implements Observer {
 	
-	private TransactionData transactionData;
+	private SuspiciousTransactionData transactionData;
 	
 	EmailConfiguration email = new EmailConfiguration();
 	
-	public EmailNotification(TransactionData transactionData) {
+	public EmailNotification(SuspiciousTransactionData transactionData) {
 		this.transactionData = transactionData;
 		transactionData.registerObserver(this);
 		

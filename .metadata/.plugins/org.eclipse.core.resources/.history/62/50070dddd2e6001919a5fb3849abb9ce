@@ -1,0 +1,14 @@
+package com.bookstorage.bookstorage;
+
+import org.springframework.data.couchbase.core.query.N1qlPrimaryIndexed;
+import org.springframework.data.couchbase.core.query.ViewIndexed;
+import org.springframework.data.couchbase.repository.CouchbaseRepository;
+
+
+	
+	@N1qlPrimaryIndexed
+	@ViewIndexed(designDoc="test", viewName="all")
+	public interface DAO extends CouchbaseRepository<Entity, Integer> {
+		
+
+}

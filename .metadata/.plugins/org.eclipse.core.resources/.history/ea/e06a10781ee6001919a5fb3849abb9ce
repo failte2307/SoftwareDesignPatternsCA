@@ -1,0 +1,6 @@
+server.servlet.context-path=/book
+
+ spring.couchbase.bootstrap-hosts=localhost
+ spring.couchbase.bucket.name=Test
+ spring.couchbase.bucket.password=Password12345
+ spring.data.couchbase.auto-index=true

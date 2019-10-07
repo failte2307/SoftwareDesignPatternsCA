@@ -17,9 +17,9 @@ public class SMSNotification implements Observer {
 	
 	private final static Logger logger = LoggerFactory.getLogger(SMSNotification.class);
 	
-	private TransactionData transactionData;
+	private SuspiciousTransactionData transactionData;
 	
-	public SMSNotification(TransactionData transactionData) {
+	public SMSNotification(SuspiciousTransactionData transactionData) {
 		this.transactionData = transactionData;
 		transactionData.registerObserver(this);
 		
