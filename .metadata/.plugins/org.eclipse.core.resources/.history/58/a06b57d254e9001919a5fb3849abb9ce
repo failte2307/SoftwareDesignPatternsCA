@@ -50,8 +50,6 @@ public class SuspiciousTransactionData implements Subject {
 		this.transactionDate = transactionDate;
 		this.transactionTime = transactionTime;
 		this.transactionCountry = transactionCountry; 
-		this.mobileNo = mobileNo;
-		this.email = email;
 		suspiciousTransaction();
 	}
 

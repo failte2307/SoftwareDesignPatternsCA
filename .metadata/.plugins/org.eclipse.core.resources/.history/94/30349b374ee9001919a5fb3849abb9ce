@@ -21,7 +21,7 @@ public class EmailConfiguration {
 	final String username = "failte2307@gmail.com";
 	final String password = "failte12345";
 	
-	public void sendEmail(String customerName, double amount, String transactionDate, String transactionTime, String email, String mobileNo, String transactionCountry) {
+	public void sendEmail(String customerName, double amount, String transactionDate, String transactionTime, String email, String mobileNo) {
 	Properties props = System.getProperties();
 	props = configureProperties();	
     try {
@@ -31,7 +31,7 @@ public class EmailConfiguration {
             }
         });
         Message msg = new MimeMessage(session);  
-        configureMessage(msg,customerName,transactionDate, transactionTime, mobileNo, transactionCountry);
+        configureMessage(msg,"Mark");
         Transport.send(msg);
         System.out.println("Message sent.");
     } catch (MessagingException e) {
@@ -53,16 +53,14 @@ public class EmailConfiguration {
 		  return props;
 	}
 	
-	public void configureMessage(Message msg, String customerName, String transactionDate, String transactionTime, String mobileNo, String transactionCountry ) {
+	public void configureMessage(Message msg, String customerName ) {
 		try {
 		InternetAddress sender = new InternetAddress("failte2307@gmail.com", "Goliath National Bank");
 		msg.setFrom(sender);
         InternetAddress[] addresses = InternetAddress.parse("shaunalily9@gmail.com"); 
         msg.addRecipients(RecipientType.TO, addresses);
         msg.setSubject("Golaith National Bank - Unusal Activity"); 
-        msg.setText("Hi, " + customerName + "We recently noticed some suspicious activity on your recent transactions. On the " + transactionDate
-        		+ " at " + transactionTime + "the amount of was spent in " + transactionCountry +"Please log in to you Goliath Mobile app to confirm this was your transaction" +
-        		"or contact us directly you have also been contacted on your phone " + mobileNo + ". Thank you"); 
+        msg.setText("Hi, " + customerName + "Test"); 
         msg.setSentDate(new Date()); 
 		}
 		catch (MessagingException e) {

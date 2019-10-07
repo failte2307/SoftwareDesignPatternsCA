@@ -15,6 +15,7 @@ public class Transaction {
 	
 	private Timestamp transactionDateTime;
 	
+	
 	private boolean isSuspiciousTransaction;
 
 	public int getPaymentId() {
@@ -49,22 +50,34 @@ public class Transaction {
 		this.amount = amount;
 	}
 
-	public Timestamp getTransactionDateTime() {
-		return transactionDateTime;
+	public Date getTransactionDate() {
+		return transactionDate;
 	}
 
-	public void setTransactionDateTime(Timestamp transactionDateTime) {
-		this.transactionDateTime = transactionDateTime;
+	public void setTransactionDate(Date transactionDate) {
+		this.transactionDate = transactionDate;
 	}
 
-	public Transaction(int paymentId, int customerId, String transactionCountry, double amount, Timestamp transactionDateTime, boolean isSuspiciousTransaction) {
+	public Timestamp getTransactionTime() {
+		return transactionTime;
+	}
+
+	public void setTransactionTime(Timestamp transactionTime) {
+		this.transactionTime = transactionTime;
+	}
+
+	public Transaction(int paymentId, int customerId, String transactionCountry, double amount, Date transactionDate,
+			Timestamp transactionTime, boolean isSuspiciousTransaction) {
 		this.paymentId = paymentId;
 		this.customerId = customerId;
 		this.transactionCountry = transactionCountry;
 		this.amount = amount;
-        this.transactionDateTime = transactionDateTime;
+		this.transactionDate = transactionDate;
+		this.transactionTime = transactionTime;
 		this.setSuspiciousTransaction(isSuspiciousTransaction);
 	}
+	
+	
 	
 	public boolean checkForSuspiciousTransaction(String customerCountry, String transactionCountry, boolean suspiciousTransaction) {
 		if (customerCountry == transactionCountry ) {
@@ -76,6 +89,7 @@ public class Transaction {
 	}
 	
 	
+
 	public boolean isSuspiciousTransaction() {
 		return isSuspiciousTransaction;
 	}

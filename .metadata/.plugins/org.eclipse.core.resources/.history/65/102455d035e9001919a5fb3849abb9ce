@@ -66,6 +66,8 @@ public class Transaction {
 		this.setSuspiciousTransaction(isSuspiciousTransaction);
 	}
 	
+	
+	
 	public boolean checkForSuspiciousTransaction(String customerCountry, String transactionCountry, boolean suspiciousTransaction) {
 		if (customerCountry == transactionCountry ) {
 			 return suspiciousTransaction = true;
@@ -76,6 +78,7 @@ public class Transaction {
 	}
 	
 	
+
 	public boolean isSuspiciousTransaction() {
 		return isSuspiciousTransaction;
 	}

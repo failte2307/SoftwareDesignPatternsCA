@@ -18,7 +18,8 @@ public class EmailNotification implements Observer {
 	@Override
 	public void update(String customerName, double amount, String transactionDate, String transactionTime,
 			String transactionCountry, String email, String mobileNo) {
-		    emailConfig.sendEmail(customerName, amount, transactionDate, transactionTime, transactionCountry,email, mobileNo);	
+		    emailConfig.sendEmail(customerName, amount, transactionDate, transactionTime, email, mobileNo);
+		
 	}
 	
 

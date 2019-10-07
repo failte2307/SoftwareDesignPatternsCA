@@ -33,9 +33,8 @@ public class SMSNotification implements Observer {
 				  .apiSecret("iuvAHPV3dCJajV4v")
 				  .build();
 
-				String messageText = "Hi " + customerName + "A suspicious transaction has occured in " + transactionCountry +" on the " + transactionDate + " at "+ transactionTime + 
-						"for the amount your account has been locked please contact us via your online account you  have also been notified via sms at " + mobileNo;
-				TextMessage message = new TextMessage("Goliath National Bank", email , messageText);
+				String messageText = "A suspicious transaction has occured and your account has been locked please contact us via your online account";
+				TextMessage message = new TextMessage("Goliath National Bank", "353838388104", messageText);
 				SmsSubmissionResponse response = null;
 			    try {
 					response = client.getSmsClient().submitMessage(message);
