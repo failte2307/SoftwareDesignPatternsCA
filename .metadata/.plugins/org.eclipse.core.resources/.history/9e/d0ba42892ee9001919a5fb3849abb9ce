@@ -21,7 +21,7 @@ public class EmailConfiguration {
 	final String username = "failte2307@gmail.com";
 	final String password = "failte12345";
 	
-	public void sendEmail(String customerName, double amount, String transactionDate, String transactionTime, String email, String mobileNo) {
+	public void sendEmail(String customerName, double amount, Date transactionDate, Timestamp transactionTime) {
 	Properties props = System.getProperties();
 	props = configureProperties();	
     try {

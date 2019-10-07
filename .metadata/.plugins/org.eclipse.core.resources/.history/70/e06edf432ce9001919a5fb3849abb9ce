@@ -24,6 +24,30 @@ public class SMSNotification implements Observer {
 		transactionData.registerObserver(this);
 		
 	}
+	
+	@Override
+	public void update(String customerName, double amount, Date transactionDate, Timestamp transactionTime,
+			String transactionCountry)  {
+	NexmoClient client = new NexmoClient.Builder()
+			  .apiKey("e5c39a7d")
+			  .apiSecret("iuvAHPV3dCJajV4v")
+			  .build();
+
+			String messageText = "A suspicious transaction has occured and your account has been locked please contact us via your online account";
+			TextMessage message = new TextMessage("Goliath National Bank", "353838388104", messageText);
+			SmsSubmissionResponse response = null;
+		    try {
+				response = client.getSmsClient().submitMessage(message);
+			} catch (IOException e) {
+				e.printStackTrace();
+			} catch (NexmoClientException e) {
+				e.printStackTrace();
+			}
+			for (SmsSubmissionResponseMessage responseMessage : response.getMessages()) {
+			    System.out.println(responseMessage);
+			} 
+				
+	}
 
 	@Override
 	public void update(String customerName, double amount, String transactionDate, String transactionTime,
@@ -51,4 +75,5 @@ public class SMSNotification implements Observer {
 
 		
 	}
+}
 

@@ -61,11 +61,11 @@ public class SuspiciousTransactionData implements Subject {
 		return amount;
 	}
 
-	public String getTransactionDate() {
+	public Date getTransactionDate() {
 		return transactionDate;
 	}
 
-	public String TransactionTime() {
+	public Timestamp getTransactionTime() {
 		return transactionTime;
 	}
 

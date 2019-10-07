@@ -1,5 +1,7 @@
 package Observer;
 
+import java.sql.Date;
+import java.sql.Timestamp;
 
 public interface Observer {
 	

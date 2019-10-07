@@ -88,8 +88,6 @@ public class Transaction {
 			return suspiciousTransaction = false;
 		}
 	}
-	
-	
 
 	public boolean isSuspiciousTransaction() {
 		return isSuspiciousTransaction;
