@@ -3,16 +3,11 @@ package com.bank.observer;
 import java.sql.Date;
 import java.sql.Timestamp;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class EmailNotification implements Observer {
-	
-	@Autowired
-	EmailConfiguration emailConfig;
 	
 	private SuspiciousTransactionData transactionData;
 	
-	
+	EmailConfiguration emailConfig = new EmailConfiguration();
 	
 	public EmailNotification(SuspiciousTransactionData transactionData) {
 		this.transactionData = transactionData;

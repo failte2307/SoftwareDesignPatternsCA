@@ -1,0 +1,15 @@
+package com.bank.observer;
+
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+
+public class TransactionController {
+
+	@RequestMapping(method = RequestMethod.GET, value="/transactioncheck")
+	public String addTest() {
+		return "HelloWorld";
+		System.out.println("Hi")
+	}
+}
