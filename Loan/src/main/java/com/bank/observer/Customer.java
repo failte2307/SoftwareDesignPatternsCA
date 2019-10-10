@@ -1,26 +1,35 @@
 package com.bank.observer;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Customer")
 public class Customer {
 	
+	@Id
+	@Column(name = "Customer_Id")
 	private int customerId;
-	
+
+	@Column(name = "Customer_Name")
 	private String name;
 	
+	@Column(name = "Email")
 	private String email;
 	
+	@Column(name = "Mobile_No")
 	private String mobileNo;
 	
+	@Column(name = "Address")
 	private String address;
 	
+	@Column(name = "creditRating")
 	private int creditRating;
 	
-	private boolean isEmail;
-	
-	private String Country;
-	
-	private boolean isMobileNo;
-	
-	private boolean isAddress;
+	@Column(name = "Country")
+	private String country;
 
 	public int getCustomerId() {
 		return customerId;
@@ -70,50 +79,22 @@ public class Customer {
 		this.creditRating = creditRating;
 	}
 
-	public boolean isEmail() {
-		return isEmail;
-	}
-
-	public void setEmail(boolean isEmail) {
-		this.isEmail = isEmail;
-	}
-
-	public boolean isMobileNo() {
-		return isMobileNo;
-	}
-
-	public void setMobileNo(boolean isMobileNo) {
-		this.isMobileNo = isMobileNo;
-	}
-
-	public boolean isAddress() {
-		return isAddress;
-	}
-
-	public void setAddress(boolean isAddress) {
-		this.isAddress = isAddress;
-	}
-
-	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating,
-			boolean isEmail, boolean isMobileNo, boolean isAddress) {
+	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating , String country) {
 		this.customerId = customerId;
 		this.name = name;
 		this.email = email;
 		this.mobileNo = mobileNo;
 		this.address = address;
 		this.creditRating = creditRating;
-		this.isEmail = isEmail;
-		this.isMobileNo = isMobileNo;
-		this.isAddress = isAddress;
-		this.Country = Country;
+		this.country = country;
 	}
 
 	public String getCountry() {
-		return Country;
+		return country;
 	}
 
 	public void setCountry(String country) {
-		Country = country;
+		this.country = country;
 	}
 	
 	

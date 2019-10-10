@@ -64,6 +64,29 @@ public class Customer {
 		this.creditRating = creditRating;
 	}
 
+	public boolean isEmail() {
+		return isEmail;
+	}
+
+	public void setEmail(boolean isEmail) {
+		this.isEmail = isEmail;
+	}
+
+	public boolean isMobileNo() {
+		return isMobileNo;
+	}
+
+	public void setMobileNo(boolean isMobileNo) {
+		this.isMobileNo = isMobileNo;
+	}
+
+	public boolean isAddress() {
+		return isAddress;
+	}
+
+	public void setAddress(boolean isAddress) {
+		this.isAddress = isAddress;
+	}
 
 	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating) {
 		this.customerId = customerId;

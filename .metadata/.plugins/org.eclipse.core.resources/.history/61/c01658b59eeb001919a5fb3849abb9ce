@@ -2,7 +2,6 @@ package com.bank.entity;
 
 public class Customer {
 	
-	
 	private int customerId;
 	
 	private String name;
@@ -15,6 +14,11 @@ public class Customer {
 	
 	private int creditRating;
 	
+	private boolean isEmail; 
+	
+	private boolean isMobileNo;
+	
+	private boolean isAddress;
 
 	public int getCustomerId() {
 		return customerId;
@@ -64,14 +68,41 @@ public class Customer {
 		this.creditRating = creditRating;
 	}
 
+	public boolean isEmail() {
+		return isEmail;
+	}
 
-	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating) {
+	public void setEmail(boolean isEmail) {
+		this.isEmail = isEmail;
+	}
+
+	public boolean isMobileNo() {
+		return isMobileNo;
+	}
+
+	public void setMobileNo(boolean isMobileNo) {
+		this.isMobileNo = isMobileNo;
+	}
+
+	public boolean isAddress() {
+		return isAddress;
+	}
+
+	public void setAddress(boolean isAddress) {
+		this.isAddress = isAddress;
+	}
+
+	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating,
+			boolean isEmail, boolean isMobileNo, boolean isAddress) {
 		this.customerId = customerId;
 		this.name = name;
 		this.email = email;
 		this.mobileNo = mobileNo;
 		this.address = address;
 		this.creditRating = creditRating;
+		this.isEmail = isEmail;
+		this.isMobileNo = isMobileNo;
+		this.isAddress = isAddress;
 	}
 	
 	public Customer() {

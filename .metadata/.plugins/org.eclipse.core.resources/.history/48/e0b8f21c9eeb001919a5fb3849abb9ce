@@ -26,22 +26,11 @@ public class CustomerDAO {
 		this.entityManager = entityManager;
 	}
 	
+	
+	
 	public EntityManager getEntityManager() {
 		return entityManager;
 	}
-	
-	
-	public Customer getCustomer(){
-		Customer foundCustomer = new Customer();
-		List<Employee> employeeQuery = entityManager.createQuery("Select e from Employee e", Employee.class).getResultList();
-		
-		for(Employee i : employeeQuery) {
-			employeeList.add(new EmployeeDTO(i));
-		}
-		return employeeList;
-		}
 
-	
-	
 
 }

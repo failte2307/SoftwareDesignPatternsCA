@@ -1,0 +1,13 @@
+package com.bank.observer;
+
+
+
+public class CustomerDAO {
+	
+	@PersistenceUnit
+	private EntityManagerFactory entityManagerFactory;
+	
+	@PersistenceContext
+	private EntityManager entityManager;
+
+}

@@ -1,7 +1,6 @@
-package com.bank.entity;
+package com.bank.observer;
 
 public class Customer {
-	
 	
 	private int customerId;
 	
@@ -15,6 +14,13 @@ public class Customer {
 	
 	private int creditRating;
 	
+	private boolean isEmail;
+	
+	private String country;
+	
+	private boolean isMobileNo;
+	
+	private boolean isAddress;
 
 	public int getCustomerId() {
 		return customerId;
@@ -64,18 +70,46 @@ public class Customer {
 		this.creditRating = creditRating;
 	}
 
+	public boolean isEmail() {
+		return isEmail;
+	}
 
-	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating) {
+	public void setEmail(boolean isEmail) {
+		this.isEmail = isEmail;
+	}
+
+	public boolean isMobileNo() {
+		return isMobileNo;
+	}
+
+	public void setMobileNo(boolean isMobileNo) {
+		this.isMobileNo = isMobileNo;
+	}
+
+	public boolean isAddress() {
+		return isAddress;
+	}
+
+	public void setAddress(boolean isAddress) {
+		this.isAddress = isAddress;
+	}
+
+	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating , String country) {
 		this.customerId = customerId;
 		this.name = name;
 		this.email = email;
 		this.mobileNo = mobileNo;
 		this.address = address;
 		this.creditRating = creditRating;
+		this.Country = country;
 	}
-	
-	public Customer() {
-		
+
+	public String getCountry() {
+		return Country;
+	}
+
+	public void setCountry(String country) {
+		Country = country;
 	}
 	
 	
