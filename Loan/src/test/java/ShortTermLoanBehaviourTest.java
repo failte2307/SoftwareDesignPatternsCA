@@ -3,8 +3,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.loan.LongTermLoan;
-import com.loan.ShortTermLoan;
+import com.bank.loan.LongTermLoan;
+import com.bank.loan.ShortTermLoan;
 
 public class ShortTermLoanBehaviourTest {
 	

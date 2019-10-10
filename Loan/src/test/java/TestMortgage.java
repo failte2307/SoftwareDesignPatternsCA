@@ -2,11 +2,10 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Assert.*;
 
+import com.bank.loan.Mortgage;
+
 import org.junit.Before;
 import org.junit.Test;
-
-
-import com.loan.Mortgage;
 
 public class TestMortgage {
 
