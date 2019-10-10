@@ -3,40 +3,26 @@ package com.bank.observer;
 import java.sql.Date;
 import java.sql.Timestamp;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "Transaction")
 public class Transaction {
 	
-	@Id
-	@Column(name = "Transaction_Id")
 	private int transactionId;
 	
-	@Column(name = "Customer_Id")
 	private int customerId;
 	
-	@Column(name = "Transaction_Country")
 	private String transactionCountry;
 	
-	@Column(name = "Amount")
 	private double amount;
 	
-	@Column(name = "Time")
 	private Timestamp transactionDateTime;
 	
-	@Column(name = "Is_Suspicious_Transaction")
 	private boolean isSuspiciousTransaction;
 
-	public int getTransactionId() {
-		return transactionId;
+	public int getPaymentId() {
+		return paymentId;
 	}
 
-	public void setTransactionId(int transactionId) {
-		this.transactionId = transactionId;
+	public void setPaymentId(int paymentId) {
+		this.paymentId = paymentId;
 	}
 
 	public int getCustomerId() {
@@ -71,8 +57,8 @@ public class Transaction {
 		this.transactionDateTime = transactionDateTime;
 	}
 
-	public Transaction(int transactionId, int customerId, String transactionCountry, double amount, Timestamp transactionDateTime, boolean isSuspiciousTransaction) {
-		this.transactionId = transactionId;
+	public Transaction(int paymentId, int customerId, String transactionCountry, double amount, Timestamp transactionDateTime, boolean isSuspiciousTransaction) {
+		this.paymentId = paymentId;
 		this.customerId = customerId;
 		this.transactionCountry = transactionCountry;
 		this.amount = amount;

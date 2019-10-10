@@ -13,22 +13,17 @@ import javax.persistence.Table;
 public class Transaction {
 	
 	@Id
-	@Column(name = "Transaction_Id")
+	@Column(name = "transactionId")
 	private int transactionId;
 	
-	@Column(name = "Customer_Id")
 	private int customerId;
 	
-	@Column(name = "Transaction_Country")
 	private String transactionCountry;
 	
-	@Column(name = "Amount")
 	private double amount;
 	
-	@Column(name = "Time")
 	private Timestamp transactionDateTime;
 	
-	@Column(name = "Is_Suspicious_Transaction")
 	private boolean isSuspiciousTransaction;
 
 	public int getTransactionId() {
