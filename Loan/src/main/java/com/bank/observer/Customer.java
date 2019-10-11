@@ -25,8 +25,8 @@ public class Customer {
 	@Column(name = "Address")
 	private String address;
 	
-	@Column(name = "creditRating")
-	private int creditRating;
+	@Column(name = "Credit_Rating")
+	private String creditRating;
 	
 	@Column(name = "Country")
 	private String country;
@@ -71,15 +71,15 @@ public class Customer {
 		this.address = address;
 	}
 
-	public int getCreditRating() {
+	public String getCreditRating() {
 		return creditRating;
 	}
 
-	public void setCreditRating(int creditRating) {
+	public void setCreditRating(String creditRating) {
 		this.creditRating = creditRating;
 	}
 
-	public Customer(int customerId, String name, String email, String mobileNo, String address, int creditRating , String country) {
+	public Customer(int customerId, String name, String email, String mobileNo, String address, String creditRating , String country) {
 		this.customerId = customerId;
 		this.name = name;
 		this.email = email;
@@ -87,6 +87,9 @@ public class Customer {
 		this.address = address;
 		this.creditRating = creditRating;
 		this.country = country;
+	}
+
+	public Customer() {
 	}
 
 	public String getCountry() {

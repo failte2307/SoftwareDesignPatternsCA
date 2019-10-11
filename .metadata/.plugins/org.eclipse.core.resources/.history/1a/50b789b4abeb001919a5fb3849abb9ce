@@ -1,0 +1,17 @@
+server.servlet.context-path=/bank
+
+
+
+
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/
+spring.datasource.username=sql2308118
+spring.datasource.password=hA2%fG1*
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+spring.jpa.properties.hibernate.id.new_generator_mappings=false
+
+
+
