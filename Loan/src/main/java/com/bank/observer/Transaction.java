@@ -71,13 +71,12 @@ public class Transaction {
 		this.transactionDateTime = transactionDateTime;
 	}
 
-	public Transaction(int transactionId, int customerId, String transactionCountry, double amount, Timestamp transactionDateTime, boolean isSuspiciousTransaction) {
+	public Transaction(int transactionId, int customerId, String transactionCountry, double amount, Timestamp transactionDateTime) {
 		this.transactionId = transactionId;
 		this.customerId = customerId;
 		this.transactionCountry = transactionCountry;
 		this.amount = amount;
         this.transactionDateTime = transactionDateTime;
-		this.setSuspiciousTransaction(isSuspiciousTransaction);
 	}
 	
 	public boolean checkForSuspiciousTransaction(String customerCountry, String transactionCountry, boolean suspiciousTransaction) {

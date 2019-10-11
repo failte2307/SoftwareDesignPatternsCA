@@ -16,6 +16,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class CustomerDAO {
 	
+	private final int positionOfCustomer = 0;
 	
 	@PersistenceContext
 	private EntityManager entityManager;
@@ -35,13 +36,18 @@ public class CustomerDAO {
 	
 	
 	
-	public List<Customer> getCustomerById(int customerId){
+	public CustomerDTO getCustomerById(int customerId){
 		EntityManager em = getEntityManager();
 		List <Customer> foundCustomer = new ArrayList();
-		foundCustomer = em.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class).setParameter("customerId",customerId).getResultList();
+		foundCustomer =  em.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class)
+				.setParameter("customerId",customerId).getResultList();
+		CustomerDTO customerDto = new CustomerDTO(foundCustomer.get(positionOfCustomer).getCustomerId(),
+				foundCustomer.get(positionOfCustomer).getName(),
+				foundCustomer.get(positionOfCustomer).getEmail(),foundCustomer.get(positionOfCustomer).getMobileNo(),
+				foundCustomer.get(positionOfCustomer).getAddress(),foundCustomer.get(positionOfCustomer).getCreditRating(),
+				foundCustomer.get(positionOfCustomer).getCountry());
+		return customerDto;
 		
-		
-		return foundCustomer;
 		}
 
 	
