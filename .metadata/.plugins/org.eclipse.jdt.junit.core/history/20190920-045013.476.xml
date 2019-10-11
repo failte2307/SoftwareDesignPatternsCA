@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ShortTermLoanBehaviourTest" project="Loan" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="ShortTermLoanBehaviourTest" time="0.0">
-    <testcase name="ShortTermbehaviourTestMedium" classname="ShortTermLoanBehaviourTest" time="0.0"/>
-    <testcase name="ShortTermbehaviourTestShort" classname="ShortTermLoanBehaviourTest" time="0.0"/>
-    <testcase name="ShortTermbehaviourTestLong" classname="ShortTermLoanBehaviourTest" time="0.0"/>
-  </testsuite>
-</testrun>

@@ -1,0 +1,51 @@
+package com.bank.observer;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceUnit;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CustomerDAO {
+	
+	
+	@PersistenceUnit(unitName = "bankPersistenceUnit")
+	private EntityManagerFactory entityManagerFactory;
+	
+	@PersistenceContext(unitName = "bankPersistenceUnit")
+	private EntityManager entityManager;
+
+	public EntityManagerFactory getEntityManagerFactory() {
+		return entityManagerFactory;
+	}
+
+	public void setEntityManagerFactory(EntityManagerFactory entityManagerFactory) {
+		this.entityManagerFactory = entityManagerFactory;
+	}
+
+	public EntityManager getEntityManager() {
+		return entityManager;
+	}
+
+	public void setEntityManager(EntityManager entityManager) {
+		this.entityManager = entityManager;
+	}
+	
+	
+	
+	
+	public Customer getCustomerById(int customerId){
+		Customer foundCustomer = new Customer();
+		foundCustomer = entityManager.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class).setParameter("customerId",customerId).getSingleResult();
+		
+		
+		return foundCustomer;
+		}
+
+	
+	
+
+}

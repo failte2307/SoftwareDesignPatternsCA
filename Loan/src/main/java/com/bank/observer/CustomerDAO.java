@@ -1,13 +1,18 @@
 package com.bank.observer;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceUnit;
+import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
+@Transactional
 @Repository
 public class CustomerDAO {
 	
@@ -30,10 +35,11 @@ public class CustomerDAO {
 	
 	
 	
-	public Customer getCustomer(){
+	public List<Customer> getCustomerById(int customerId){
 		EntityManager em = getEntityManager();
-		Customer foundCustomer = new Customer();
-		foundCustomer = em.createQuery("Select e from Customer e Where e.id = 1", Customer.class).getSingleResult();
+		List <Customer> foundCustomer = new ArrayList();
+		foundCustomer = em.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class).setParameter("customerId",customerId).getResultList();
+		
 		
 		return foundCustomer;
 		}
