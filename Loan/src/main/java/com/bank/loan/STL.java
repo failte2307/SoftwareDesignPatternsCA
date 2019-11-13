@@ -16,5 +16,11 @@ public class STL extends Loan {
 		super(issuedBy,type,term);
 	}
 
+	@Override
+	public double total() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
     }

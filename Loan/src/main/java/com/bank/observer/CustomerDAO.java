@@ -18,17 +18,23 @@ public class CustomerDAO {
 	
 	private final int positionOfCustomer = 0;
 	
+	@PersistenceUnit
+	private EntityManagerFactory entityManagerFactory;
+	
 	@PersistenceContext
 	private EntityManager entityManager;
-	
-	
-	EntityManagerFactory emf = Persistence.createEntityManagerFactory("bankPersistenceUnit");
+
+	public EntityManagerFactory getEntityManagerFactory() {
+		return entityManagerFactory;
+	}
+
+	public void setEntityManagerFactory(EntityManagerFactory entityManagerFactory) {
+		this.entityManagerFactory = entityManagerFactory;
+	}
 
 	public EntityManager getEntityManager() {
-	    return emf.createEntityManager();
+		return entityManager;
 	}
-	
-
 
 	public void setEntityManager(EntityManager entityManager) {
 		this.entityManager = entityManager;
@@ -36,21 +42,19 @@ public class CustomerDAO {
 	
 	
 	
+
 	public CustomerDTO getCustomerById(int customerId){
-		EntityManager em = getEntityManager();
-		List <Customer> foundCustomer = new ArrayList();
-		foundCustomer =  em.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class)
+		List <CustomerDTO> customerList = new ArrayList<CustomerDTO>();		
+		List<Customer>foundCustomer =  entityManager.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class)
 				.setParameter("customerId",customerId).getResultList();
-		CustomerDTO customerDto = new CustomerDTO(foundCustomer.get(positionOfCustomer).getCustomerId(),
-				foundCustomer.get(positionOfCustomer).getName(),
-				foundCustomer.get(positionOfCustomer).getEmail(),foundCustomer.get(positionOfCustomer).getMobileNo(),
-				foundCustomer.get(positionOfCustomer).getAddress(),foundCustomer.get(positionOfCustomer).getCreditRating(),
-				foundCustomer.get(positionOfCustomer).getCountry());
-		return customerDto;
-		
-		}
-
-	
-	
-
+		System.out.println(foundCustomer.toString());
+		System.out.println(foundCustomer.get(0).getCustomerId());
+		CustomerDTO customer = new CustomerDTO(foundCustomer.get(positionOfCustomer));
+		return customer;
+	}
 }
+
+	
+	
+
+

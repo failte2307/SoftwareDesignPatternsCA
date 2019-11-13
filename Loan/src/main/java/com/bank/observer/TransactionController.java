@@ -31,10 +31,12 @@ public class TransactionController {
         if(transaction.isSuspiciousTransaction()) {
         	logger.info("transaction with id " + transaction.getTransactionId() + " is suspicious");
         	SuspiciousTransactionData suspiciousTransaction = new SuspiciousTransactionData(); 
+        	EmailNotification email = new EmailNotification(suspiciousTransaction);
+        	SMSNotification sms = new SMSNotification(suspiciousTransaction);
         	String dateFormatted = suspiciousTransaction.convertTransactionTimeStamp(transaction.getTransactionDateTime());
         	suspiciousTransaction.setSuspiciousTransactionDetails(customer.getName(), transaction.getAmount(),
-        			dateFormatted.substring(11, 19), dateFormatted.substring(0, 10), transaction.getTransactionCountry(), 
-        			customer.getMobileNo(), customer.getEmail());
+        		    dateFormatted.substring(0, 10),dateFormatted.substring(11, 19),transaction.getTransactionCountry(), 
+        			customer.getEmail(), customer.getMobileNo());
         	return customer;	
         }
         else {

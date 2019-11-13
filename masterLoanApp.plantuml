@@ -1,0 +1,597 @@
+@startuml
+
+title __MASTERLOANAPP's Class Diagram__\n
+
+  namespace  {
+    namespace om.bank.app {
+      class com.bank.app.App {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.app {
+      class com.bank.app.App {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.app {
+      class com.bank.app.App {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      abstract class com.bank.loan.Loan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      abstract class com.bank.loan.Loan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      abstract class com.bank.loan.Loan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      interface com.bank.loan.LoanBehaviour {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      interface com.bank.loan.LoanBehaviour {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      interface com.bank.loan.LoanBehaviour {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.LongTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.LongTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.LongTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Main {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Main {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Main {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Mortgage {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Mortgage {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.Mortgage {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.PersonalLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.PersonalLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.PersonalLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.STL {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.STL {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.STL {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.ShortTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.ShortTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.loan {
+      class com.bank.loan.ShortTermLoan {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Account {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Account {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Account {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Customer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Customer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Customer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDAO {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDAO {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDAO {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDTO {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDTO {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Driver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Driver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Driver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailConfiguration {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailConfiguration {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailConfiguration {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.EmailNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.NotifyCustomer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.NotifyCustomer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.NotifyCustomer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Observer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Observer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Observer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSDriver {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SMSNotification {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Subject {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Subject {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      interface com.bank.observer.Subject {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SuspiciousTransactionData {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SuspiciousTransactionData {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.SuspiciousTransactionData {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Transaction {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Transaction {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.Transaction {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.TransactionController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.TransactionController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.bank.observer {
+      class com.bank.observer.TransactionController {
+      }
+    }
+  }
+  
+
+  com.bank.loan.LongTermLoan .up.|> LoanBehaviour
+  com.bank.loan.LongTermLoan .up.|> com.bank.loan.LoanBehaviour
+  com.bank.loan.LongTermLoan .up.|> com.bank.loan.LoanBehaviour
+  com.bank.loan.ShortTermLoan .up.|> com.bank.loan.LoanBehaviour
+  com.bank.loan.ShortTermLoan .up.|> com.bank.loan.LoanBehaviour
+  com.bank.loan.ShortTermLoan .up.|> LoanBehaviour
+  com.bank.observer.EmailNotification .up.|> Observer
+  com.bank.observer.EmailNotification .up.|> com.bank.observer.Observer
+  com.bank.observer.EmailNotification .up.|> com.bank.observer.Observer
+  com.bank.observer.SMSNotification .up.|> com.bank.observer.Observer
+  com.bank.observer.SMSNotification .up.|> com.bank.observer.Observer
+  com.bank.observer.SMSNotification .up.|> Observer
+  com.bank.observer.SuspiciousTransactionData .up.|> com.bank.observer.Subject
+  com.bank.observer.SuspiciousTransactionData .up.|> com.bank.observer.Subject
+  com.bank.observer.SuspiciousTransactionData .up.|> Subject
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

@@ -79,12 +79,17 @@ public class Transaction {
         this.transactionDateTime = transactionDateTime;
 	}
 	
+	public Transaction() {
+		
+		
+	}
+	
 	public boolean checkForSuspiciousTransaction(String customerCountry, String transactionCountry, boolean suspiciousTransaction) {
 		if (customerCountry == transactionCountry ) {
-			 return suspiciousTransaction = true;
+			 return suspiciousTransaction = false;
 		}	
 		else {
-			return suspiciousTransaction = false;
+			return suspiciousTransaction = true;
 		}
 	}
 	

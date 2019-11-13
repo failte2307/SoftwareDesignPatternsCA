@@ -14,7 +14,7 @@ com\bank\observer\SMSDriver.class
 com\bank\observer\Transaction.class
 com\bank\loan\LoanBehaviour.class
 com\bank\loan\Mortgage.class
-com\bank\app\App.class
+com\bank\observer\CustomerDTO.class
 com\bank\observer\Observer.class
 com\bank\observer\EmailConfiguration.class
 com\bank\observer\EmailConfiguration$1.class

@@ -34,8 +34,8 @@ public class SMSNotification implements Observer {
 				  .build();
 
 				String messageText = "Hi " + customerName + "A suspicious transaction has occured in " + transactionCountry +" on the " + transactionDate + " at "+ transactionTime + 
-						"for the amount your account has been locked please contact us via your online account you  have also been notified via sms at " + mobileNo;
-				TextMessage message = new TextMessage("Goliath National Bank", email , messageText);
+						"for the amount" + Double.toString(amount) +" your account has been locked please contact us via your online account you  have also been notified via email at " + email;
+				TextMessage message = new TextMessage("Goliath", mobileNo , messageText);
 				SmsSubmissionResponse response = null;
 			    try {
 					response = client.getSmsClient().submitMessage(message);

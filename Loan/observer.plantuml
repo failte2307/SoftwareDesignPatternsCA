@@ -1,0 +1,251 @@
+@startuml
+
+title __OBSERVER's Class Diagram__\n
+
+    namespace om.bank.observer {
+      class com.bank.observer.Account {
+      }
+    }
+
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.Customer {
+          - address : String
+          - country : String
+          - creditRating : String
+          - customerId : int
+          - email : String
+          - mobileNo : String
+          - name : String
+          + Customer()
+          + Customer()
+          + getAddress()
+          + getCountry()
+          + getCreditRating()
+          + getCustomerId()
+          + getEmail()
+          + getMobileNo()
+          + getName()
+          + setAddress()
+          + setCountry()
+          + setCreditRating()
+          + setCustomerId()
+          + setEmail()
+          + setMobileNo()
+          + setName()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDAO {
+          ~ emf : EntityManagerFactory
+          - entityManager : EntityManager
+          - positionOfCustomer : int
+          + getCustomerById()
+          + getEntityManager()
+          + setEntityManager()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.CustomerDTO {
+          - address : String
+          - country : String
+          - creditRating : String
+          - customerId : int
+          - email : String
+          - mobileNo : String
+          - name : String
+          + CustomerDTO()
+          + CustomerDTO()
+          + getAddress()
+          + getCountry()
+          + getCreditRating()
+          + getCustomerId()
+          + getEmail()
+          + getMobileNo()
+          + getName()
+          + setAddress()
+          + setCountry()
+          + setCreditRating()
+          + setCustomerId()
+          + setEmail()
+          + setMobileNo()
+          + setName()
+      }
+    }
+
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.Driver {
+          {static} - emailConfig : EmailConfiguration
+          {static} + main()
+      }
+    }
+
+  
+
+    namespace om.bank.observer {
+      class com.bank.observer.EmailConfiguration {
+          ~ SSL_FACTORY : String
+          ~ password : String
+          ~ username : String
+          + configureMessage()
+          + configureProperties()
+          + sendEmail()
+      }
+    }
+
+  
+
+    namespace om.bank.observer {
+      class com.bank.observer.EmailNotification {
+          ~ emailConfig : EmailConfiguration
+          - transactionData : SuspiciousTransactionData
+          + EmailNotification()
+          + update()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      interface com.bank.observer.NotifyCustomer {
+          {abstract} + sendNotification()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      interface com.bank.observer.Observer {
+          {abstract} + update()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.SMSDriver {
+          {static} + main()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.SMSNotification {
+          {static} - logger : Logger
+          - transactionData : SuspiciousTransactionData
+          + SMSNotification()
+          + update()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      interface com.bank.observer.Subject {
+          {abstract} + notifyObservers()
+          {abstract} + registerObserver()
+          {abstract} + removeObserver()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.SuspiciousTransactionData {
+          - amount : double
+          - customerName : String
+          - email : String
+          - mobileNo : String
+          - observers : ArrayList
+          - transactionCountry : String
+          - transactionDate : String
+          - transactionTime : String
+          + SuspiciousTransactionData()
+          + TransactionTime()
+          + convertTransactionTimeStamp()
+          + getAmount()
+          + getCustomerName()
+          + getEmail()
+          + getMobileNo()
+          + getTransactionDate()
+          + notifyObservers()
+          + registerObserver()
+          + removeObserver()
+          + setEmail()
+          + setMobileNo()
+          + setSuspiciousTransactionDetails()
+          + suspiciousTransaction()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.Transaction {
+          - amount : double
+          - customerId : int
+          - isSuspiciousTransaction : boolean
+          - transactionCountry : String
+          - transactionDateTime : Timestamp
+          - transactionId : int
+          + Transaction()
+          + checkForSuspiciousTransaction()
+          + getAmount()
+          + getCustomerId()
+          + getTransactionCountry()
+          + getTransactionDateTime()
+          + getTransactionId()
+          + isSuspiciousTransaction()
+          + setAmount()
+          + setCustomerId()
+          + setSuspiciousTransaction()
+          + setTransactionCountry()
+          + setTransactionDateTime()
+          + setTransactionId()
+      }
+    }
+
+  
+
+
+    namespace om.bank.observer {
+      class com.bank.observer.TransactionController {
+          ~ customerDao : CustomerDAO
+          {static} - logger : Logger
+          + checkForSuspiciousTransaction()
+      }
+    }
+
+
+  com.bank.observer.EmailNotification .up.|> Observer
+  com.bank.observer.SMSNotification .up.|> Observer
+  com.bank.observer.SuspiciousTransactionData .up.|> Subject
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

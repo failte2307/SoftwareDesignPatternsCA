@@ -88,6 +88,16 @@ public class Customer {
 		this.creditRating = creditRating;
 		this.country = country;
 	}
+	
+	public Customer(CustomerDTO dto) {
+		this.customerId = dto.getCustomerId();
+		this.name = dto.getName();
+		this.email = dto.getEmail();
+		this.mobileNo = dto.getMobileNo();
+		this.address = dto.getAddress();
+		this.creditRating = dto.getCreditRating();
+		this.country = dto.getCountry();
+	}
 
 	public Customer() {
 	}

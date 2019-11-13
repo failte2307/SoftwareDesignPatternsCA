@@ -1,17 +1,20 @@
-package com.bank.app;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-
-
-@ComponentScan("com.bank")
-@Configuration
-@SpringBootApplication
-public class App {
-
-	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
-	}
-}
+//package com.bank.app;
+//
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+//import org.springframework.context.annotation.ComponentScan;
+//import org.springframework.context.annotation.Configuration;
+//import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+//
+//
+//@ComponentScan("com.bank")
+//@Configuration
+//@EnableWebMvc
+//@SpringBootApplication
+//public class App extends SpringBootServletInitializer {
+//
+//	public static void main(String[] args) {
+//		SpringApplication.run(App.class, args);
+//	}
+//}

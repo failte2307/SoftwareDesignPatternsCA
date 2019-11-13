@@ -79,6 +79,16 @@ public class CustomerDTO {
 
 	public CustomerDTO() {
 	}
+	
+	public CustomerDTO(Customer entity) {
+		this.customerId = entity.getCustomerId();
+		this.name = entity.getName();
+		this.email = entity.getEmail();
+		this.mobileNo = entity.getMobileNo();
+		this.address = entity.getAddress();
+		this.creditRating = entity.getCreditRating();
+		this.country = entity.getCountry();
+	}
 
 	public String getCountry() {
 		return country;

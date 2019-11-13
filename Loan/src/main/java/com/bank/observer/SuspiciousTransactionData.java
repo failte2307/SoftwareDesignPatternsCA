@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class SuspiciousTransactionData implements Subject {
 	
-	private ArrayList observers;
+	private ArrayList<Observer> observers;
 	
 	private String customerName; 
 	
@@ -25,22 +25,10 @@ public class SuspiciousTransactionData implements Subject {
 	private String mobileNo;
 	
 	
-	
-	
 	public SuspiciousTransactionData() {	
 		observers = new ArrayList();
 	}
 
-	
-
-	@Override
-	public void notifyObservers() {
-		for (int i = 0; i < observers.size(); i++) {
-			Observer observer = (Observer)observers.get(i);
-			observer.update(customerName,amount,transactionDate,transactionTime,transactionCountry, mobileNo, email);
-		}
-	}
-	
 	public void suspiciousTransaction() {
 		notifyObservers();
 	}
@@ -67,17 +55,6 @@ public class SuspiciousTransactionData implements Subject {
 	public void registerObserver(Observer o) {
 	 observers.add(o);	
 	}
-
-
-
-	@Override
-	public void removeObserver(Observer o) {
-		int i = observers.indexOf(o);
-		if (i >= 0) {
-			observers.remove(i);
-		}
-	}
-
 
 
 	public String getEmail() {
@@ -120,8 +97,20 @@ public class SuspiciousTransactionData implements Subject {
 	    String formattedDate = sdf.format(timestamp.getTime());
 	    return formattedDate;
 	}
+
+
+
+
+
+	@Override
+	public void notifyObservers() {
+			for (Observer observer: observers) {
+				observer.update(customerName,amount,transactionDate,transactionTime,transactionCountry, mobileNo, email);
+			}
+		}
+		
+	}
 	
 	
-}
 
 

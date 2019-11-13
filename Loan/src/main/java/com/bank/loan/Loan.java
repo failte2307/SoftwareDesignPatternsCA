@@ -8,7 +8,7 @@ public abstract class Loan {
 	
 
 	
-	LoanBehaviour loanBehaviour;
+	private LoanBehaviour loanBehaviour;
 	
 
     public LoanBehaviour getLoanBehaviour() {
@@ -62,6 +62,8 @@ public abstract class Loan {
 		this.issuedBy = issuedBy;
 		this.type = type;
 	}
+	
+	public abstract double total();
 	
 
 } 

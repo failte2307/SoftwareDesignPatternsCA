@@ -6,8 +6,8 @@
 
 
 <persistence-unit name="bankPersistenceUnit">
-<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-    <class>com.bank.observer.Customer</class> 
+<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>    
+    <class>com.bank.observer.Customer</class>
      <class>com.bank.observer.Transaction</class> 
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     
