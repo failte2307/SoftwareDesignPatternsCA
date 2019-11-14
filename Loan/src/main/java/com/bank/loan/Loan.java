@@ -21,11 +21,11 @@ public abstract class Loan {
     
     public double CalculateInterestOnLoanByTerm(int term) {return loanBehaviour.CalculateInterestOnLoanByTerm(term); }
     
-	private String issuedBy;
+	protected String issuedBy;
 	
-	private String type;
+	protected String type;
 	
-    private int term;
+    protected int term;
     
     
 	
@@ -63,7 +63,15 @@ public abstract class Loan {
 		this.type = type;
 	}
 	
-	public abstract double total();
+	public Loan(int term) {
+		this.term = term;
+	}
+	
+	public Loan() {
+		
+	}
+	
+	public abstract double totalExpenses();
 	
 
 } 

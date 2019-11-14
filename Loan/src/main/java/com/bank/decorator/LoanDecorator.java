@@ -1,5 +1,13 @@
 package com.bank.decorator;
 
-public class LoanDecorator {
+import com.bank.loan.Loan;
+
+ public abstract class LoanDecorator extends Loan{
+
+
+	public LoanDecorator() {
+	}
+
+
 
 }

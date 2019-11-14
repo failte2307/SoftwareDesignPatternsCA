@@ -8,7 +8,7 @@ public class Mortgage extends Loan {
 	}
 
 	@Override
-	public double total() {
+	public double totalExpenses() {
 		// TODO Auto-generated method stub
 		return 0;
 	}

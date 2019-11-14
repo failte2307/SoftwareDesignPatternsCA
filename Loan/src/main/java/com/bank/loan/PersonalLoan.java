@@ -7,7 +7,7 @@ public class PersonalLoan extends Loan {
 		super(type, issuedBy, term);
 	}
 
-	public double total() {
+	public double totalExpenses() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
