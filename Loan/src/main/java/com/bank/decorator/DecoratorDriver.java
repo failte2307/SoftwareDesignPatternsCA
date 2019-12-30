@@ -10,6 +10,7 @@ public class DecoratorDriver {
 		mortgagesLoan = new LoanTax(mortgagesLoan);
 		mortgagesLoan = new LoanInsurance(mortgagesLoan);
 		mortgagesLoan = new test(mortgagesLoan);
+		mortgagesLoan = new MidTermCustomerDiscount(mortgagesLoan);
 		System.out.println(mortgagesLoan.additionalExpenses());
 		System.out.println(mortgagesLoan.getLoanFixedChargesDescription());
 		

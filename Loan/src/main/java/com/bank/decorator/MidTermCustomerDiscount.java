@@ -1,6 +1,6 @@
 package com.bank.decorator;
 
-public class MidTermCustomerDiscount {
+public class MidTermCustomerDiscount extends LoanDecorator {
 	
 	private final double discount = 0.90;
 	
@@ -12,7 +12,7 @@ public class MidTermCustomerDiscount {
 	}
 
 	public double additionalExpenses() {
-		return loanFixedCharges.additionalExpenses() - (loanFixedCharges.additionalExpenses() * discount);
+		return (loanFixedCharges.additionalExpenses() * discount);
 	}
 
 	public String getLoanFixedChargesDescription() {

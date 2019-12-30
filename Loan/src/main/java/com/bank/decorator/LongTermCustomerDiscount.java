@@ -12,12 +12,12 @@ public class LongTermCustomerDiscount extends LoanDecorator {
 	}
 
 	public double additionalExpenses() {
-		return loanFixedCharges.additionalExpenses() - (loanFixedCharges.additionalExpenses() * discount);
+		return (loanFixedCharges.additionalExpenses()  * discount);
 	}
 
 	@Override
 	public String getLoanFixedChargesDescription() {
-		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan term Loan discount,";
+		return loanFixedCharges.getLoanFixedChargesDescription() + " Loan term Loan discount,";
 	}
 
 
