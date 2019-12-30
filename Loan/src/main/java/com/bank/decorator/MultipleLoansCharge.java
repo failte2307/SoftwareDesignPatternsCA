@@ -1,34 +1,23 @@
 package com.bank.decorator;
 
-import com.bank.loan.Loan;
-
-public class LoanInsurance extends LoanDecorator{
-
+public class MultipleLoansCharge {
+	
 	 private LoanFixedCharges loanFixedCharges;
 	 
-	 public LoanInsurance(LoanFixedCharges loanFixedCharges) {
+	 public MultipleLoansCharge(LoanFixedCharges loanFixedCharges) {
 		 this.loanFixedCharges = loanFixedCharges;
 	 }
 	 	 
-     
+    
 	 public double additionalExpenses() {	
 		return  300 + loanFixedCharges.additionalExpenses();
 	   }
 
 
-	@Override
 	public String getLoanFixedChargesDescription() {
-		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance,";
+		return loanFixedCharges.getLoanFixedChargesDescription() +" Multiple Loans charges, ";
 	}
 
 
 
-
-
-    }
-
- 
-	
-
-	
-	
+}
