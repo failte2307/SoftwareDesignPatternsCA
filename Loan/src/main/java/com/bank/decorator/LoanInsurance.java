@@ -4,25 +4,28 @@ import com.bank.loan.Loan;
 
 public class LoanInsurance extends LoanDecorator{
 
-	 Loan loan;
-
-	public LoanInsurance(Loan loan) {
-		this.loan = loan;
-	}
-	
-
-	public double totalExpenses() {
-		double cost = loan.totalExpenses();
-		if(cost == 0) {
-			return cost = 200;
-		}
-		else {
-			int bla = loan.getTerm();
-		cost += 200 * (loan.getTerm() - 1);
-		return cost;
+	 private LoanFixedCharges loanFixedCharges;
+	 
+	 public LoanInsurance(LoanFixedCharges loanFixedCharges) {
+		 this.loanFixedCharges = loanFixedCharges;
+	 }
+	 	 
+     
+	 public double additionalExpenses() {	
+		return  300 + loanFixedCharges.additionalExpenses();
 	   }
+
+
+	@Override
+	public String getLoanFixedChargesDescription() {
+		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance,";
+	}
+
+
+
+
+
     }
-}
 
  
 	

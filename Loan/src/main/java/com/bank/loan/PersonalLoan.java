@@ -1,16 +1,30 @@
 package com.bank.loan;
 
-public class PersonalLoan extends Loan {
+import com.bank.decorator.LoanDecorator;
+import com.bank.decorator.LoanFixedCharges;
+
+public class PersonalLoan extends Loan implements LoanFixedCharges{
 	
 	
-	public PersonalLoan(String type, String issuedBy, int term) {
-		super(type, issuedBy, term);
+	public PersonalLoan(String type, String issuedBy, int term, double loanAmount) {
+		super(type, issuedBy, term, loanAmount);
 	}
 
-	public double totalExpenses() {
-		// TODO Auto-generated method stub
-		return 0;
+    public PersonalLoan() {
+    	
+    }
+    
+	public double additionalExpenses() {
+		return 100;
 	}
+
+	@Override
+	public String getLoanFixedChargesDescription() {
+		 return "Personal Loan, additional addons : ";
+	}
+
+
+	
 		
 	}
 

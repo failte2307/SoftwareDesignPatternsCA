@@ -2,12 +2,13 @@ package com.bank.decorator;
 
 import com.bank.loan.Loan;
 
- public abstract class LoanDecorator extends Loan{
+ public abstract class LoanDecorator implements LoanFixedCharges{
 
+	 private LoanFixedCharges loanFixedCharges;
 
-	public LoanDecorator() {
-	}
+	public abstract double additionalExpenses() ;
 
+	public abstract String getLoanFixedChargesDescription();
 
 
 }

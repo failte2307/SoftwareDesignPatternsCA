@@ -6,7 +6,15 @@ package com.bank.loan;
  */
 public abstract class Loan {
 	
-
+	protected String issuedBy;
+	
+	protected String type;
+	
+    protected int term;
+    
+    protected double loanAmount;
+    
+    protected double totalRepayment;
 	
 	private LoanBehaviour loanBehaviour;
 	
@@ -20,13 +28,6 @@ public abstract class Loan {
     }
     
     public double CalculateInterestOnLoanByTerm(int term) {return loanBehaviour.CalculateInterestOnLoanByTerm(term); }
-    
-	protected String issuedBy;
-	
-	protected String type;
-	
-    protected int term;
-    
     
 	
 	public int getTerm() {
@@ -57,10 +58,11 @@ public abstract class Loan {
 		this.type = type;
 	}
 	
-	public Loan(String issuedBy, String type, int term) {
+	public Loan(String issuedBy, String type, int term, double loanAmount) {
 		this.term = term;
 		this.issuedBy = issuedBy;
 		this.type = type;
+		this.loanAmount = loanAmount;
 	}
 	
 	public Loan(int term) {
@@ -71,7 +73,22 @@ public abstract class Loan {
 		
 	}
 	
-	public abstract double totalExpenses();
+
+	public double getLoanAmount() {
+		return loanAmount;
+	}
+
+	public double getTotalRepayment() {
+		return totalRepayment;
+	}
+
+	public void setLoanAmount(double loanAmount) {
+		this.loanAmount = loanAmount;
+	}
+
+	public void setTotalRepayment(double totalRepayment) {
+		this.totalRepayment = totalRepayment;
+	}
 	
 
 } 
