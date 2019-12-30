@@ -1,0 +1,15 @@
+package com.bank.factory;
+
+public enum LoanFixedChargesType {
+	
+	MORT_TAXLC_LONGTCD,
+	
+	MORT_TAXLC_MIDTD,
+	
+	MORT_TAXLC_INSURANCSP_LONGTCD,
+	
+	PERS_TAXLC_INSURANCESP_LONGTCD,
+	
+	STL_TAXLC_INSURANCESP_LONGTCD
+
+}
