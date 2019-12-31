@@ -20,6 +20,10 @@ public class LoanTaxLocalCustomer extends LoanDecorator {
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan Tax local Customer,";
 	}
+	
+	LoanTaxLocalCustomer(){
+		
+	}
 
 
 

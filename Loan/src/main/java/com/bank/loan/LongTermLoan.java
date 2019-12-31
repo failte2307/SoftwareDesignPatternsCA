@@ -6,12 +6,15 @@ public class LongTermLoan implements LoanBehaviour {
 	final double higherInterestRate = 0.15; 
 	
 
-	public double CalculateInterestOnLoanByTerm(int term) {
+	public double CalculateInterestOnLoanByTerm(int term, double loanAmount) {
 	    if(term <= 15) {
-	    	 return lowerInterestRate;
+	    	double interestAmount = (loanAmount * lowerInterestRate);
+	    	return interestAmount;
+	    	 
 	    }  
 	    else {
-	    	return higherInterestRate;	
+	    	double interestAmount = (loanAmount * higherInterestRate);
+	    	return interestAmount;
 	    }
  }
 }

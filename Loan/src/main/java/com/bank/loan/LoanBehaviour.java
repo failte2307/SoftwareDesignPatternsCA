@@ -2,7 +2,7 @@ package com.bank.loan;
 
 public interface LoanBehaviour {
 	
-	 public double CalculateInterestOnLoanByTerm(int term);
+	 public double CalculateInterestOnLoanByTerm(int term, double loanAmount);
 
 		
 	

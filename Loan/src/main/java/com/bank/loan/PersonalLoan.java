@@ -6,8 +6,8 @@ import com.bank.decorator.LoanFixedCharges;
 public class PersonalLoan extends Loan implements LoanFixedCharges{
 	
 	
-	public PersonalLoan(String type, String issuedBy, int term, double loanAmount) {
-		super(type, issuedBy, term, loanAmount);
+	public PersonalLoan( String issuedBy,String type, int term, double loanAmount, double totalRepayment, double interestAmount) {
+		super(issuedBy,type,term, loanAmount, totalRepayment, interestAmount);
 	}
 
     public PersonalLoan() {

@@ -14,6 +14,10 @@ public class STL extends Loan implements LoanFixedCharges {
 		this.fixedCharges = fixedCharges;
 	}
 	
+	public STL( String issuedBy,String type, int term, double loanAmount, double totalRepayment, double interestAmount) {
+		super(issuedBy,type,term, loanAmount, totalRepayment, interestAmount);
+	}
+	
 	public STL( String issuedBy,String type, int term, double loanAmount) {
 		super(issuedBy,type,term, loanAmount);
 	}

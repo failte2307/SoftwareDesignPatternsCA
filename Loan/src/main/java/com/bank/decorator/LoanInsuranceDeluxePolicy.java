@@ -17,6 +17,8 @@ public class LoanInsuranceDeluxePolicy {
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance standard policy,";
 	}
+	
+	
 
 
 
