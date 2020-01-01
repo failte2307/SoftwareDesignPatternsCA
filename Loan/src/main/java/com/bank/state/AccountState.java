@@ -12,6 +12,8 @@ public interface AccountState {
 	
 	public double addInterest();
 	
+	public void updateState();
+	
 	
 	
 

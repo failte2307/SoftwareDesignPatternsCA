@@ -24,8 +24,8 @@ public class Account {
 			this.accountState = accountState;
 			highInterestAccountState = new HighInterestAccountState(this);
 			lowInterestAccountState = new LowInterestAccountState(this);
-			overdrawnAccountState= new OverdrawnAccountState(this);
 			newInterestAccountState = new NewInterestAccountState(this);
+			overdrawnAccountState= new OverdrawnAccountState(this);
 			state = newInterestAccountState;
 		}
 		
@@ -47,8 +47,8 @@ public class Account {
 		}
 		
 
-		public void checkState() {
-			state.checkState();
+		public String checkState() {
+			return state.checkState();
 		}
 		
 		private double addInterest() {
@@ -56,9 +56,6 @@ public class Account {
 			
 		}
 		
-		public String Test() {
-			return state.test();
-		}
 
 		public int getAccountId() {
 			return accountId;

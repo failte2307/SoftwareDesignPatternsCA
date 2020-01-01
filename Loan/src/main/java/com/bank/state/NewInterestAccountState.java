@@ -42,16 +42,14 @@ public class NewInterestAccountState implements AccountState {
  	
 	}
 
-	@Override
-	public void checkState() {
-		// TODO Auto-generated method stub
+	public String checkState() {
+		return "Account State: new Interest Account";
 		
 	}
 
 	@Override
-	public String test() {
-
-		return "NewAccount";
+	public double addInterest() {
+		return 0;
 	}
 
 
