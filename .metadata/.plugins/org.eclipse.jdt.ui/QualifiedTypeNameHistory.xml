@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.loan.Mortgage"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.loan.LongTermLoan"/>
 <fullyQualifiedTypeName name="com.nexmo.client.NexmoClient"/>
 <fullyQualifiedTypeName name="com.nexmo.client.sms.messages.TextMessage"/>
@@ -41,6 +39,25 @@
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 <fullyQualifiedTypeName name="com.bank.observer.Customer"/>
 <fullyQualifiedTypeName name="com.bank.observer.SuspiciousTransactionData"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="com.bank.loan.Mortgage"/>
+<fullyQualifiedTypeName name="com.bank.decorator.LoanTaxLocalCustomer"/>
+<fullyQualifiedTypeName name="com.bank.decorator.LoanFixedCharges"/>
+<fullyQualifiedTypeName name="com.bank.loan.PersonalLoan"/>
+<fullyQualifiedTypeName name="com.bank.loan.LoanBehaviour"/>
+<fullyQualifiedTypeName name="com.bank.loan.STL"/>
+<fullyQualifiedTypeName name="com.bank.loan.LongTermLoan"/>
+<fullyQualifiedTypeName name="com.bank.loan.ShortTermLoan"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.impl.SimpleLog"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.bank.singleton.Logging"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.bank.decorator.AdditionalCharges"/>
 </qualifiedTypeNameHistroy>

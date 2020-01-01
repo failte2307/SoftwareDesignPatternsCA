@@ -1,0 +1,12 @@
+
+INFO:  01-01-2020 05:15:25  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:19:16  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:21:22  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:22:05  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:24:03  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:25:10  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:27:21  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:29:07  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:34:17  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 05:35:05  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  01-01-2020 14:27:11  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0

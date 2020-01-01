@@ -11538,3 +11538,457 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2019-12-31 23:53:04,904 [Worker-643: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2019-12-31 23:53:04,905 [Worker-643: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-12-31 23:53:04,906 [Worker-643: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:46:33,713 [Worker-652: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:46:33,715 [Worker-652: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:46:33,717 [Worker-652: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:46:33,719 [Worker-652: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:48:39,974 [Worker-647: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:48:39,977 [Worker-647: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:48:39,979 [Worker-647: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:48:39,980 [Worker-647: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:48:49,034 [Worker-653: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:48:49,036 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:48:49,037 [Worker-653: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:48:49,038 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:49:21,939 [Worker-655: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:21,942 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:49:21,944 [Worker-655: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:21,945 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:49:28,813 [Worker-654: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:28,815 [Worker-654: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:49:28,816 [Worker-654: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:28,817 [Worker-654: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:49:37,630 [Worker-655: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:37,632 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:49:37,633 [Worker-655: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:49:37,634 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:49:59,591 [Worker-647: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-01 00:50:03,048 [Worker-647: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: loanApp:bank:0.0.1-SNAPSHOT @ C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\pom.xml.
+2020-01-01 00:50:06,122 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:06,125 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 00:50:06,127 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:06,128 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 00:50:09,268 [Worker-647: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Loan/src/main/java
+2020-01-01 00:50:09,269 [Worker-647: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Loan/src/main/resources
+2020-01-01 00:50:09,269 [Worker-647: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Loan/src/test/java
+2020-01-01 00:50:09,579 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:09,581 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 00:50:09,582 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:09,583 [Worker-647: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 00:50:10,055 [Worker-647: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Loan
+2020-01-01 00:50:10,064 [Worker-647: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2020-01-01 00:50:13,255 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:50:13,259 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:50:13,285 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:50:13,286 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:50:13,286 [Worker-686: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Loan
+2020-01-01 00:50:13,287 [Worker-686: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Loan
+2020-01-01 00:50:13,289 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:13,291 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 00:50:13,293 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 00:50:13,294 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 00:50:13,299 [Worker-686: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:53:37,577 [Worker-698: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:53:37,607 [Worker-698: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:53:37,608 [Worker-698: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:53:37,609 [Worker-698: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:56:23,251 [Worker-674: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:56:23,255 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:56:23,257 [Worker-674: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:56:23,258 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 00:59:34,251 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:59:34,254 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 00:59:34,256 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 00:59:34,257 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:02:57,423 [Worker-848: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:02:57,426 [Worker-848: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:02:57,429 [Worker-848: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:02:57,430 [Worker-848: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:19:09,561 [Worker-850: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:19:09,564 [Worker-850: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:19:09,566 [Worker-850: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:19:09,567 [Worker-850: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:22:37,897 [Worker-852: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:22:37,899 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:22:37,900 [Worker-852: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:22:37,902 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:25:42,643 [Worker-856: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:25:42,646 [Worker-856: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:25:42,647 [Worker-856: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:25:42,648 [Worker-856: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:26:16,631 [Worker-853: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:26:16,633 [Worker-853: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:26:16,634 [Worker-853: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:26:16,635 [Worker-853: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:28:35,821 [Worker-851: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:28:35,823 [Worker-851: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:28:35,825 [Worker-851: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:28:35,825 [Worker-851: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:33:29,862 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:33:29,865 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:33:29,867 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:33:29,868 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:33:38,839 [Worker-857: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:33:38,841 [Worker-857: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:33:38,842 [Worker-857: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:33:38,843 [Worker-857: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:34:15,825 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:34:15,828 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:34:15,829 [Worker-670: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:34:15,830 [Worker-670: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:41:47,775 [Worker-853: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:41:47,803 [Worker-853: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:41:47,805 [Worker-853: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:41:47,806 [Worker-853: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:42:34,326 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:42:34,351 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:42:34,352 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:42:34,353 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:45:04,075 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:45:04,077 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:45:04,080 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:45:04,081 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:45:59,221 [Worker-867: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:45:59,223 [Worker-867: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:45:59,225 [Worker-867: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:45:59,226 [Worker-867: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:51:28,965 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:51:28,968 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:51:28,970 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:51:28,971 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:53:59,888 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:53:59,890 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:53:59,892 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:53:59,893 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:54:45,919 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:54:45,922 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:54:45,923 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:54:45,924 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:55:15,207 [Worker-865: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:55:15,209 [Worker-865: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:55:15,212 [Worker-865: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:55:15,213 [Worker-865: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 01:56:47,610 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:56:47,613 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 01:56:47,615 [Worker-854: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 01:56:47,617 [Worker-854: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 02:01:44,525 [Worker-868: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:01:44,527 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 02:01:44,529 [Worker-868: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:01:44,530 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 02:02:04,819 [Worker-872: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:02:04,822 [Worker-872: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 02:02:04,823 [Worker-872: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:02:04,824 [Worker-872: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 02:03:15,005 [Worker-871: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:03:15,007 [Worker-871: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 02:03:15,008 [Worker-871: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:03:15,009 [Worker-871: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 02:03:17,183 [Worker-874: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:03:17,186 [Worker-874: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 02:03:17,187 [Worker-874: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:03:17,188 [Worker-874: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 02:06:15,311 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:06:15,314 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 02:06:15,316 [Worker-869: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 02:06:15,317 [Worker-869: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:17:59,552 [Worker-878: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:17:59,554 [Worker-878: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:17:59,556 [Worker-878: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:17:59,556 [Worker-878: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:18:40,607 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:18:40,609 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:18:40,611 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:18:40,611 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:25:42,891 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:25:42,896 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:25:42,897 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:25:42,898 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:25:57,479 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:25:57,482 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:25:57,483 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:25:57,484 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:27:05,374 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:27:05,377 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:27:05,378 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:27:05,379 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:27:36,480 [Worker-889: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:27:36,483 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:27:36,484 [Worker-889: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:27:36,486 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:28:37,063 [Worker-888: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:28:37,066 [Worker-888: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:28:37,067 [Worker-888: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:28:37,068 [Worker-888: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:32:18,373 [Worker-891: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:32:18,376 [Worker-891: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:32:18,377 [Worker-891: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:32:18,378 [Worker-891: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:34:50,282 [Worker-893: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:34:50,286 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:34:50,288 [Worker-893: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:34:50,289 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:35:42,100 [Worker-892: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:35:42,102 [Worker-892: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:35:42,104 [Worker-892: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:35:42,104 [Worker-892: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:36:21,620 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:21,622 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:36:21,624 [Worker-877: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:21,625 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:36:39,402 [Worker-888: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:39,404 [Worker-888: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:36:39,406 [Worker-888: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:39,407 [Worker-888: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:36:45,227 [Worker-894: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:45,229 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:36:45,231 [Worker-894: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:36:45,232 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:37:00,777 [Worker-893: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:00,781 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:37:00,783 [Worker-893: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:00,783 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:37:31,365 [Worker-895: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:31,367 [Worker-895: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:37:31,368 [Worker-895: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:31,369 [Worker-895: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:37:39,889 [Worker-894: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:39,892 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:37:39,893 [Worker-894: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:37:39,894 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:39:47,467 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:39:47,469 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:39:47,470 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:39:47,471 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:43:18,631 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:43:18,634 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:43:18,635 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:43:18,636 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:44:08,844 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:44:08,846 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:44:08,847 [Worker-887: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:44:08,848 [Worker-887: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:50:21,295 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:21,299 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:50:21,301 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:21,302 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:50:36,381 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:36,383 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:50:36,384 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:36,386 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:50:56,582 [Worker-898: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:56,584 [Worker-898: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:50:56,586 [Worker-898: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:50:56,587 [Worker-898: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:51:06,339 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:06,342 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:51:06,344 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:06,345 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:51:21,373 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:21,376 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:51:21,378 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:21,378 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:51:32,046 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:32,049 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:51:32,050 [Worker-897: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:32,051 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:51:43,930 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:43,932 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:51:43,933 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:43,933 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:51:52,701 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:52,703 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:51:52,704 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:51:52,705 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:52:31,694 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:52:31,696 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:52:31,698 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:52:31,699 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:52:53,134 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:52:53,136 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:52:53,137 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:52:53,138 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:53:09,926 [Worker-898: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:09,928 [Worker-898: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:53:09,929 [Worker-898: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:09,930 [Worker-898: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:53:17,505 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:17,507 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:53:17,509 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:17,510 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:53:40,973 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:40,975 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:53:40,976 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:53:40,977 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:54:44,451 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:54:44,454 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:54:44,456 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:54:44,457 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:56:16,251 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:56:16,254 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:56:16,255 [Worker-890: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:56:16,256 [Worker-890: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:57:48,987 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:57:48,991 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:57:48,993 [Worker-900: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:57:48,994 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 04:58:59,852 [Worker-903: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:58:59,855 [Worker-903: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 04:58:59,856 [Worker-903: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 04:58:59,857 [Worker-903: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:00:46,624 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:00:46,659 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:00:46,661 [Worker-881: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:00:46,662 [Worker-881: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:05:13,739 [Worker-903: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:05:13,743 [Worker-903: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:05:13,745 [Worker-903: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:05:13,747 [Worker-903: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:08:03,033 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:03,035 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:08:03,036 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:03,038 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:08:15,939 [Worker-912: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:15,942 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:08:15,944 [Worker-912: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:15,945 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:08:58,068 [Worker-911: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:58,071 [Worker-911: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:08:58,072 [Worker-911: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:08:58,073 [Worker-911: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:09:20,495 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:09:20,498 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:09:20,500 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:09:20,500 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:10:28,579 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:10:28,581 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:10:28,582 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:10:28,583 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:12:32,482 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:12:32,485 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:12:32,487 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:12:32,488 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:14:31,208 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:14:31,211 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:14:31,213 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:14:31,214 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:16:49,074 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:16:49,076 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:16:49,077 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:16:49,078 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:16:57,357 [Worker-915: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:16:57,359 [Worker-915: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:16:57,361 [Worker-915: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:16:57,362 [Worker-915: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:18:59,733 [Worker-910: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:18:59,736 [Worker-910: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:18:59,738 [Worker-910: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:18:59,739 [Worker-910: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:19:13,561 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:13,563 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:19:13,565 [Worker-909: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:13,566 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:19:43,523 [Worker-914: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:43,542 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:19:43,543 [Worker-914: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:43,544 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:19:52,330 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:52,332 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:19:52,333 [Worker-901: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:19:52,333 [Worker-901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:25:01,655 [Worker-916: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:25:01,658 [Worker-916: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:25:01,659 [Worker-916: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:25:01,660 [Worker-916: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:28:03,022 [Worker-914: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:28:03,025 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:28:03,026 [Worker-914: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:28:03,027 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:30:53,800 [Worker-920: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:30:53,803 [Worker-920: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:30:53,805 [Worker-920: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:30:53,806 [Worker-920: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:32:22,048 [Worker-918: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:32:22,050 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:32:22,052 [Worker-918: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:32:22,052 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:33:08,652 [Worker-926: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:33:08,655 [Worker-926: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:33:08,657 [Worker-926: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:33:08,658 [Worker-926: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:37:09,362 [Worker-913: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: loanApp:bank:0.0.1-SNAPSHOT @ C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\pom.xml.
+2020-01-01 05:37:12,691 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:12,709 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:12,711 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:12,713 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:15,974 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:37:15,976 [Worker-913: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-01 05:37:15,978 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:37:15,979 [Worker-913: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:37:15,979 [Worker-913: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Loan
+2020-01-01 05:37:15,979 [Worker-913: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Loan
+2020-01-01 05:37:15,981 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:15,982 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 05:37:15,983 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:15,984 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 05:37:15,987 [Worker-913: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:37:23,035 [Worker-918: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-01 05:37:23,672 [Worker-918: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: loanApp:bank:0.0.1-SNAPSHOT @ C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\pom.xml.
+2020-01-01 05:37:24,237 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:24,240 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:24,242 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:24,244 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:25,344 [Worker-918: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Loan/src/main/java
+2020-01-01 05:37:25,344 [Worker-918: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Loan/src/main/resources
+2020-01-01 05:37:25,345 [Worker-918: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Loan/src/test/java
+2020-01-01 05:37:25,685 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:25,687 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:25,689 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:25,690 [Worker-918: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2020-01-01 05:37:26,292 [Worker-918: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Loan
+2020-01-01 05:37:26,299 [Worker-918: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-01-01 05:37:30,878 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:37:30,879 [Worker-927: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 05:37:30,905 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 05:37:30,906 [Worker-927: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 05:37:30,907 [Worker-927: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Loan
+2020-01-01 05:37:30,907 [Worker-927: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Loan
+2020-01-01 05:37:30,910 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:30,911 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 05:37:30,913 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+2020-01-01 05:37:30,914 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+2020-01-01 05:37:30,919 [Worker-927: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:11:06,981 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-01 14:11:22,056 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:11:22,076 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:11:22,083 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:11:22,084 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:11:29,467 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-01 14:11:29,469 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-01 14:11:29,517 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-01 14:11:29,521 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-01 14:11:29,530 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\bookstorage\src\test\resources
+2020-01-01 14:20:25,910 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:20:25,924 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:20:25,926 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:20:25,927 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:21:08,975 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:21:08,978 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:21:08,980 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:21:08,981 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:22:36,093 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:22:36,096 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:22:36,098 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:22:36,099 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:24:19,224 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:24:19,228 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:24:19,230 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:24:19,232 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:25:36,851 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:25:36,854 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:25:36,856 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:25:36,857 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources
+2020-01-01 14:25:44,793 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:25:44,797 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-01 14:25:44,800 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-01 14:25:44,801 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\src\test\resources

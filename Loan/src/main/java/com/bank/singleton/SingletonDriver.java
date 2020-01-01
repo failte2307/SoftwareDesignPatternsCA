@@ -6,7 +6,9 @@ public class SingletonDriver {
 		
 		
 
-    Logging.getInstance().errorLog("test");
+    Logging.getInstance().infoLog("test");
+    System.out.println(Logging.getInstance().equals(Logging.getInstance()));
+    System.out.println("Hi");
      
 	}
 

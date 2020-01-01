@@ -13,7 +13,6 @@ public class DecoratorDriver {
 		mortgagesLoan = new MidTermCustomerDiscount(mortgagesLoan);
 		System.out.println(mortgagesLoan.additionalExpenses());
 		System.out.println(mortgagesLoan.getLoanFixedChargesDescription());
-		Logging.getInstance();
 		
 		
 

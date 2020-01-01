@@ -16,7 +16,7 @@ public class Logging {
 	private volatile static Logging instance;
 
 	private String logname = "bankLog";
-    private String userEnvironment = System.getProperty ("user.dir");
+    private String userEnvironment = ("C:\\Users\\Mark\\eclipse-workspace\\masterLoanApp\\Loan\\banklog.txt");
 	private static File logFile;
 	
 	public static Logging getInstance() {
@@ -26,6 +26,7 @@ public class Logging {
 					 instance = new Logging();
 				 }
 			 }
+
 		}
 		 return instance;		 
 	}
@@ -34,12 +35,15 @@ public class Logging {
 		if (instance != null){
 			throw new IllegalStateException("Cannot instantiate a new singleton instance of Logging this is to stop reflection");
 		}
+
 		this.createLogFile();
 	}
 	
 	
 	private void createLogFile(){
-		File logsFolder = new File(userEnvironment + '/' + "Log");
+		System.out.println(userEnvironment);
+		File logsFolder = new File(userEnvironment  + '/' + "Log");
+		
 		if(!logsFolder.exists()){
 			System.err.println("INFO: Creating new logs directory in " + userEnvironment);
 			logsFolder.mkdir();
@@ -49,7 +53,7 @@ public class Logging {
 	   	Calendar calender = Calendar.getInstance();
 
 		logname =  logname + '-' +  date.format(calender.getTime()) + ".log";
-		Logging.logFile = new File(logsFolder.getName(),logname);
+		Logging.logFile = new File(userEnvironment);
 		try{
 			if(logFile.createNewFile()){
 				System.err.println("INFO: Creating new log file");	
@@ -66,6 +70,7 @@ public class Logging {
 			Date today = new Date();
 			SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 			simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+
 
 			loggingMessage += "\nINFO:  " + simpleDateFormat.format(today) + "  " + message;
 			FileWriter fileWrither = new FileWriter(Logging.logFile, true);
