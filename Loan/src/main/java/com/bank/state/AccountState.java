@@ -2,14 +2,17 @@ package com.bank.state;
 
 public interface AccountState {
 	
-	public double Withdraw(double Amount);
+	public boolean withdraw(double amount);
 	
-	public double Deposit(double Amount);
+	public boolean deposit(double amount);
 	
 	public double viewBalance();
 	
-	public void checkState();
+	public String checkState();
 	
-	public String test();
+	public double addInterest();
+	
+	
+	
 
 }

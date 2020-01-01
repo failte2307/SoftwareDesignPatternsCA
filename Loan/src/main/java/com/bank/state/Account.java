@@ -5,6 +5,8 @@ public class Account {
     private int accountId;
 	private String accountHolder;
 	private double balance;
+	private String accountState;
+	private double InterestRate;
 	
 	
 	 AccountState highInterestAccountState;
@@ -15,10 +17,11 @@ public class Account {
 	 AccountState state;
 	 
 		
-		public Account(int accountId, String accountHolder, double balance) {
+		public Account(int accountId, String accountHolder, double balance, String accountState) {
 			this.accountId = accountId;
 			this.accountHolder = accountHolder;
 			this.balance = balance;
+			this.accountState = accountState;
 			highInterestAccountState = new HighInterestAccountState(this);
 			lowInterestAccountState = new LowInterestAccountState(this);
 			overdrawnAccountState= new OverdrawnAccountState(this);
@@ -30,13 +33,13 @@ public class Account {
         	this.state = accountState;
         }
 	 
-		public double Withdraw(double Amount) {
-			return state.Withdraw(Amount);
+		public boolean withdraw(double amount) {
+			return state.withdraw(amount);
 
 		}
 
-		public double deposit(double Amount) {
-			return state.Deposit(Amount);
+		public boolean deposit(double amount) {
+			return state.deposit(amount);
 		}
 
 		public double viewBalance() {
@@ -46,6 +49,11 @@ public class Account {
 
 		public void checkState() {
 			state.checkState();
+		}
+		
+		private double addInterest() {
+			return state.addInterest();
+			
 		}
 		
 		public String Test() {

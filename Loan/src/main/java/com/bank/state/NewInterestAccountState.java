@@ -14,15 +14,14 @@ public class NewInterestAccountState implements AccountState {
 		 updateState();
 	 }
 
-	public double Withdraw(double Amount) {
-		return 5;
-
+	public boolean withdraw(double Amount) {
+		return false;
 	}
 
-	public double Deposit(double Amount) {
+	public boolean deposit(double Amount) {
 		 account.setBalance(account.getBalance() + Amount);
 		 updateState();
-		 return Amount;
+		 return true;
 		 
 	}
 
@@ -31,7 +30,7 @@ public class NewInterestAccountState implements AccountState {
 	}
 
 	public void updateState() {
-		if(account.getBalance() >= LowerInterestCap && account.getBalance() <= HigherInterestCap)
+		if(account.getBalance() > LowerInterestCap && account.getBalance() <= HigherInterestCap)
 		{
 			account.setAccountState(account.getLowInterestAccountState());
 		}
