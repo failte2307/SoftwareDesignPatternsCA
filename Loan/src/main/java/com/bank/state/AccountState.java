@@ -9,5 +9,7 @@ public interface AccountState {
 	public double viewBalance();
 	
 	public void checkState();
+	
+	public String test();
 
 }

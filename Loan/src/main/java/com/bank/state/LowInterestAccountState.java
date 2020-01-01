@@ -10,8 +10,8 @@ public class LowInterestAccountState implements AccountState {
 	 }
 
 	public double Withdraw(double Amount) {
-		return 2;
-
+		account.setAccountState(account.getHighInterestAccountState());
+        return 2;
 	}
 
 	public double Deposit(double Amount) {
@@ -27,6 +27,12 @@ public class LowInterestAccountState implements AccountState {
 	public void checkState() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public String test() {
+    
+		return "LowInterest";
 	}
 
 
