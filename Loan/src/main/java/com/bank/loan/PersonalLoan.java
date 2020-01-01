@@ -9,6 +9,10 @@ public class PersonalLoan extends Loan implements LoanFixedCharges{
 	public PersonalLoan( String issuedBy,String type, int term, double loanAmount, double totalRepayment, double interestAmount) {
 		super(issuedBy,type,term, loanAmount, totalRepayment, interestAmount);
 	}
+	
+	public PersonalLoan( String issuedBy,String type, int term, double loanAmount) {
+		super(issuedBy,type,term, loanAmount);
+	}
 
     public PersonalLoan() {
     	

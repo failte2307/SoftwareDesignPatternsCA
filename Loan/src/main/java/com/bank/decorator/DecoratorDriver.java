@@ -3,6 +3,7 @@ package com.bank.decorator;
 import com.bank.loan.Loan;
 import com.bank.loan.LongTermLoan;
 import com.bank.loan.Mortgage;
+import com.bank.singleton.Logging;
 
 public class DecoratorDriver {
 	public static void main(String args[]) {
@@ -12,6 +13,8 @@ public class DecoratorDriver {
 		mortgagesLoan = new MidTermCustomerDiscount(mortgagesLoan);
 		System.out.println(mortgagesLoan.additionalExpenses());
 		System.out.println(mortgagesLoan.getLoanFixedChargesDescription());
+		Logging.getInstance();
+		
 		
 
 		

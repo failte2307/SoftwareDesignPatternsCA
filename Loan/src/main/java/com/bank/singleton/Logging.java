@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
 
 import org.apache.commons.logging.impl.SimpleLog;
 
@@ -37,14 +39,13 @@ public class Logging {
 	
 	
 	private void createLogFile(){
-		File logsFolder = new File(userEnvironment + '/' + "logs");
+		File logsFolder = new File(userEnvironment + '/' + "Log");
 		if(!logsFolder.exists()){
-			//Create the directory 
 			System.err.println("INFO: Creating new logs directory in " + userEnvironment);
 			logsFolder.mkdir();
 			
 		}
-		DateFormat date = new SimpleDateFormat("yyyy-MM-dd");
+		DateFormat date = new SimpleDateFormat("dd-MM-yyyy");
 	   	Calendar calender = Calendar.getInstance();
 
 		logname =  logname + '-' +  date.format(calender.getTime()) + ".log";
@@ -61,24 +62,35 @@ public class Logging {
 
 	public void infoLog(String message){
 		try{
-			DateFormat date = new SimpleDateFormat("yyyy-MM-dd");
-		   	Calendar calender = Calendar.getInstance();
-			message += "\n INFO:  " + date.format(calender.getTime()) + "  ";
+			String loggingMessage = "";
+			Date today = new Date();
+			SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+			simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+
+			loggingMessage += "\nINFO:  " + simpleDateFormat.format(today) + "  " + message;
 			FileWriter fileWrither = new FileWriter(Logging.logFile, true);
-			fileWrither.write( message.toCharArray());
+			fileWrither.write(loggingMessage.toCharArray());
 			fileWrither.close();
-		}catch(IOException e){
+		}
+		catch(IOException e){
 			System.err.println("ERROR: Could not write to log file");
 		}
+	}
+		
+		
 		public void errorLog(String message){
 			try{
-				DateFormat date = new SimpleDateFormat("yyyy-MM-dd");
-			   	Calendar calender = Calendar.getInstance();
-				message += "\n INFO:  " + date.format(calender.getTime()) + "  ";
+				String loggingMessage = "";
+				Date today = new Date();
+				SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+				simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+				
+				loggingMessage += "\nError:  " + simpleDateFormat.format(today) + "  " + message;
 				FileWriter fileWrither = new FileWriter(Logging.logFile, true);
-				fileWrither.write( message.toCharArray());
+				fileWrither.write( loggingMessage.toCharArray());
 				fileWrither.close();
-			}catch(IOException e){
+			}
+			catch(IOException e){
 				System.err.println("ERROR: Could not write to log file");
 			}
 	}
