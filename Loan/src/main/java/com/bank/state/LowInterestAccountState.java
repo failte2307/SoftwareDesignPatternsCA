@@ -4,35 +4,56 @@ public class LowInterestAccountState implements AccountState {
 	
 	
 	 private Account account;
+     private double LowerInterestCap = 0;
+     private double HigherInterestCap = 10000;
+     private double LowerInterestRate = 0.04;
 	 
 	 public LowInterestAccountState(Account account) {
 		 this.account = account;
 	 }
 
-	public double Withdraw(double Amount) {
-		account.setAccountState(account.getHighInterestAccountState());
-        return 2;
+	public boolean withdraw(double amount) {
+		account.setBalance(account.getBalance() - amount);
+		updateState();
+        return true;
 	}
 
-	public double Deposit(double Amount) {
-		// TODO Auto-generated method stub
-		return 0;
+	public boolean deposit(double amount) {
+		account.setBalance(account.getBalance() + amount);
+		updateState();
+		return true;
 	}
 
 	public double viewBalance() {
-		// TODO Auto-generated method stub
-		return 0;
+		return account.getBalance();
 	}
 
-	public void checkState() {
-		// TODO Auto-generated method stub
-		
+
+	@Override
+	public String checkState() {
+		return "LowInterestAccountState";
 	}
 
 	@Override
-	public String test() {
-    
-		return "LowInterest";
+	public double addInterest() {
+		double interest = (account.getBalance() * LowerInterestRate);
+		account.setBalance(account.getBalance() + interest);
+		return account.getBalance();
+	}
+
+	@Override
+	public void updateState() {
+		
+		if(account.getBalance() < LowerInterestCap)
+		{
+			account.setAccountState(account.getOverDrawnAccountState());
+		}
+		else if(account.getBalance() > HigherInterestCap)
+		{
+			account.setAccountState(account.getHighInterestAccountState());
+		}
+		
+		
 	}
 
 

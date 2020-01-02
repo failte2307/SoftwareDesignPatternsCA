@@ -5,7 +5,7 @@ public class NewInterestAccountState implements AccountState {
 	
 	
 	 private Account account;
-     
+     private String AccountState = "NewInterestAccount";
      private double LowerInterestCap = 0;
      private double HigherInterestCap = 10000;
 	 
