@@ -30,11 +30,11 @@ public class NewInterestAccountState implements AccountState {
 	}
 
 	public void updateState() {
-		if(account.getBalance() > LowerInterestCap && account.getBalance() <= HigherInterestCap)
+		if(account.getBalance() > LowerInterestCap && account.getBalance() < HigherInterestCap)
 		{
 			account.setAccountState(account.getLowInterestAccountState());
 		}
-		else if(account.getBalance() > HigherInterestCap)
+		else if(account.getBalance() >= HigherInterestCap)
 		{
 			account.setAccountState(account.getHighInterestAccountState());
 		}

@@ -4,36 +4,53 @@ public class OverdrawnAccountState implements AccountState {
 	
 	
 	 private Account account;
+
+     private String AccountState = "overDrawnAccount";
+     private double LowerInterestCap = 0;
+     private double HigherInterestCap = 10000;
 	 
 	 public OverdrawnAccountState(Account account) {
 		 this.account = account;
 	 }
 
-	public double Withdraw(double Amount) {
-		return 3;
-
+	public boolean withdraw(double amount) {
+		return false;
 	}
 
-	public double Deposit(double Amount) {
-		// TODO Auto-generated method stub
-		return 0;
+	public boolean deposit(double amount) {
+		 account.setBalance(account.getBalance() + amount);
+		 updateState();
+		 return true;
+		 
 	}
 
 	public double viewBalance() {
-		// TODO Auto-generated method stub
-		return 0;
+		return account.getBalance();
 	}
 
-	public void checkState() {
-		// TODO Auto-generated method stub
+	public void updateState() {
+		if(account.getBalance() > LowerInterestCap && account.getBalance() < HigherInterestCap)
+		{
+			account.setAccountState(account.getLowInterestAccountState());
+		}
+		else if(account.getBalance() >= HigherInterestCap)
+		{
+			account.setAccountState(account.getHighInterestAccountState());
+		}
+		
+ 	
+	}
+
+	public String checkState() {
+		return "Overdrawn Account";
 		
 	}
 
 	@Override
-	public String test() {
-
-		return "OverDrawn";
+	public double addInterest() {
+		return 0;
 	}
+
 
 
 }

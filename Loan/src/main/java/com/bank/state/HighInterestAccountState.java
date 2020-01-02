@@ -3,41 +3,56 @@ package com.bank.state;
 public class HighInterestAccountState implements AccountState {
 	
 	 private Account account;
+	 private final double OverdrawnInterestCap = 0;
+     private final double HigherInterestCap = 10000;
+     private final double HigherInterestRate = 0.05;
 	 
 	 public HighInterestAccountState(Account account) {
 		 this.account = account;
 	 }
 
 	public boolean withdraw(double amount) {
-		
-		return true;
-
+		account.setBalance(account.getBalance() - amount);
+		updateState();
+        return true;
 	}
 
 	public boolean deposit(double amount) {
-
+		account.setBalance(account.getBalance() + amount);
+		updateState();
 		return true;
 	}
 
 	public double viewBalance() {
 		return account.getBalance();
-		
 	}
-	@Override
-	public String test() {
-		return "HighInterestAccount";
-	}
+
 
 	@Override
 	public String checkState() {
-		// TODO Auto-generated method stub
-		return null;
+		return "HighInterestAccountState";
 	}
 
 	@Override
 	public double addInterest() {
-		// TODO Auto-generated method stub
-		return 0;
+		double interest = (account.getBalance() * HigherInterestRate);
+		account.setBalance(account.getBalance() + interest);
+		updateState();
+		return account.getBalance();
 	}
 
+	@Override
+	public void updateState() {
+		
+		if(account.getBalance() < OverdrawnInterestCap)
+		{
+			account.setAccountState(account.getOverDrawnAccountState());
+		}
+		else if(account.getBalance() > OverdrawnInterestCap && account.getBalance() < HigherInterestCap)
+		{
+			account.setAccountState(account.getLowInterestAccountState());
+		}
+		
+		
+	}
 }
