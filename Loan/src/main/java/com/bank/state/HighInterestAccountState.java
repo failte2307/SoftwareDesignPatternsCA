@@ -6,6 +6,7 @@ public class HighInterestAccountState implements AccountState {
 	 private final double OverdrawnInterestCap = 0;
      private final double HigherInterestCap = 10000;
      private final double HigherInterestRate = 0.05;
+     private final String AccountStateDetails = "HighInterestAccount";
 	 
 	 public HighInterestAccountState(Account account) {
 		 this.account = account;
@@ -48,11 +49,19 @@ public class HighInterestAccountState implements AccountState {
 		{
 			account.setAccountState(account.getOverDrawnAccountState());
 		}
-		else if(account.getBalance() > OverdrawnInterestCap && account.getBalance() < HigherInterestCap)
+		else if(account.getBalance() >= OverdrawnInterestCap && account.getBalance() < HigherInterestCap)
 		{
 			account.setAccountState(account.getLowInterestAccountState());
 		}
 		
 		
 	}
+
+	@Override
+	public void setAccountDetails() {
+		account.setAccountStateDetails(AccountStateDetails);
+		account.setInterestRate(HigherInterestRate);
+		
+	}
+
 }

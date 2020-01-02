@@ -14,7 +14,6 @@ public interface AccountState {
 	
 	public void updateState();
 	
+	public void setAccountDetails();
 	
-	
-
 }

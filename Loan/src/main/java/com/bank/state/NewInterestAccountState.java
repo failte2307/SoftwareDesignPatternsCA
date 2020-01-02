@@ -5,7 +5,7 @@ public class NewInterestAccountState implements AccountState {
 	
 	
 	 private Account account;
-     private String AccountState = "NewInterestAccount";
+     private String AccountStateDetails = "NewInterestAccount";
      private double LowerInterestCap = 0;
      private double HigherInterestCap = 10000;
 	 
@@ -50,6 +50,11 @@ public class NewInterestAccountState implements AccountState {
 	@Override
 	public double addInterest() {
 		return 0;
+	}
+
+	@Override
+	public void setAccountDetails() {
+		account.setAccountStateDetails(AccountStateDetails);
 	}
 
 

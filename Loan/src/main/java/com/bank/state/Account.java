@@ -5,8 +5,8 @@ public class Account {
     private int accountId;
 	private String accountHolder;
 	private double balance;
-	private String accountState;
-	private double InterestRate;
+	private String accountStateDetails;
+	private double interestRate;
 	
 	
 	 AccountState highInterestAccountState;
@@ -14,19 +14,19 @@ public class Account {
 	 AccountState overdrawnAccountState;
 	 AccountState newInterestAccountState;
 	 
-	 AccountState state;
+	 AccountState state = newInterestAccountState;
 	 
 		
-		public Account(int accountId, String accountHolder, double balance, String accountState) {
+		public Account(int accountId, String accountHolder, double balance, String accountState, double interestRate) {
 			this.accountId = accountId;
 			this.accountHolder = accountHolder;
 			this.balance = balance;
-			this.accountState = accountState;
+			this.accountStateDetails = accountState;
+			this.interestRate = interestRate;
 			highInterestAccountState = new HighInterestAccountState(this);
 			lowInterestAccountState = new LowInterestAccountState(this);
 			newInterestAccountState = new NewInterestAccountState(this);
 			overdrawnAccountState= new OverdrawnAccountState(this);
-			state = newInterestAccountState;
 		}
 		
         public void setAccountState(AccountState accountState) {
@@ -51,10 +51,15 @@ public class Account {
 			return state.checkState();
 		}
 		
-		private double addInterest() {
+		public double addInterest() {
 			return state.addInterest();
 			
 		}
+		
+		public void setAccountDetails() {
+			state.setAccountDetails();
+		}
+		
 		
 
 		public int getAccountId() {
@@ -81,10 +86,6 @@ public class Account {
 			return overdrawnAccountState;
 		}
 
-		public AccountState getBlockedAccountState() {
-			return newInterestAccountState;
-		}
-
 		public void setAccountId(int accountId) {
 			this.accountId = accountId;
 		}
@@ -109,9 +110,26 @@ public class Account {
 			overdrawnAccountState = overDrawnAccountState;
 		}
 
-		public void setBlockedAccountState(AccountState blockedAccountState) {
-			newInterestAccountState = blockedAccountState;
+		public String getAccountStateDetails() {
+			return accountStateDetails;
 		}
-		
+
+		public double getInterestRate() {
+			return interestRate;
+		}
+
+		public AccountState getOverdrawnAccountState() {
+			return overdrawnAccountState;
+		}
+
+		public void setAccountStateDetails(String accountStateDetails) {
+			this.accountStateDetails = accountStateDetails;
+		}
+
+		public void setInterestRate(double interestRate) {
+			this.interestRate = interestRate;
+		}
+
+
 	
 }
