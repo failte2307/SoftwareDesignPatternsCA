@@ -60,8 +60,7 @@ public class HighInterestAccountState implements AccountState {
 	@Override
 	public void setAccountDetails() {
 		account.setAccountStateDetails(AccountStateDetails);
-		account.setInterestRate(HigherInterestRate);
-		
+		account.setInterestRate(HigherInterestRate);	
 	}
 
 }

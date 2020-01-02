@@ -1,6 +1,6 @@
 package com.bank.decorator;
 
-public class LoanInsuranceDeluxePolicy {
+public class LoanInsuranceDeluxePolicy extends LoanDecorator {
 
 	 private LoanFixedCharges loanFixedCharges;
 	 
@@ -15,7 +15,7 @@ public class LoanInsuranceDeluxePolicy {
 
 
 	public String getLoanFixedChargesDescription() {
-		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance standard policy,";
+		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance Deluxe policy,";
 	}
 	
 	

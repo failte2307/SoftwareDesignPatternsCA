@@ -2,25 +2,25 @@ package com.bank.decorator;
 
 public class AdditionalCharges {
 	
-	private double LoanAmount;
+	private double loanAddedCharges;
 	private String description;
 	
-	public AdditionalCharges(double loanAmount, String description) {
-		this.LoanAmount = loanAmount;
+	public AdditionalCharges(double loanAddedCharges, String description) {
+		this.loanAddedCharges = loanAddedCharges;
 		this.description = description;
 		
 	}
 
-	public double getLoanAmount() {
-		return LoanAmount;
+	public double getLoanAddedCharges() {
+		return loanAddedCharges;
 	}
 
 	public String getDescription() {
 		return description;
 	}
 
-	public void setLoanAmount(double loanAmount) {
-		LoanAmount = loanAmount;
+	public void setLoanAddedCharges(double loanAddedCharges) {
+		this.loanAddedCharges = loanAddedCharges;
 	}
 
 	public void setDescription(String description) {

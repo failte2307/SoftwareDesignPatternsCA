@@ -9,24 +9,26 @@ import com.bank.decorator.LoanFixedCharges;
 import com.bank.decorator.LoanInsuranceStandardPolicy;
 import com.bank.decorator.LoanTaxLocalCustomer;
 import com.bank.decorator.MidTermCustomerDiscount;
-import com.bank.loan.Loan;
 import com.bank.loan.Mortgage;
-import com.bank.loan.ShortTermLoan;
 
 @RestController
 public class Test {
 	
 	@RequestMapping(method = RequestMethod.GET, produces="application/json", value="/Loan/Cost/MtLtlcLispMTCa")
 	@ResponseBody
-	public Mortgage getAdditionalCharges() {
+	public double getAdditionalCharges() {
 		try {
-			Loan shortTermLoan = new Mortgage("Jennifer", "ShortTermLoan", 14, 20000);
-			return (Mortgage) shortTermLoan;
+			Logging.getInstance().infoLog("test");
+		LoanFixedCharges mortgageLoan = new Mortgage();
+		mortgageLoan = new LoanTaxLocalCustomer(mortgageLoan);
+		mortgageLoan = new LoanInsuranceStandardPolicy(mortgageLoan);
+		mortgageLoan = new MidTermCustomerDiscount(mortgageLoan);	
+		return mortgageLoan.additionalExpenses();	
 	}
 		catch (Exception e) {
 			Logging.getInstance().errorLog(e.getMessage());
 			
 		}
-		return null;
+		return 0.00;
 	}
 }

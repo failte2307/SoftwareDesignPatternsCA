@@ -26,8 +26,6 @@ public class StateDriver {
 		 account.setAccountDetails();
 		 System.out.println(account.getInterestRate());
 		 System.out.println(account.getAccountStateDetails());
-		 
-		 
-		 
+		 	 
 		}
 }
