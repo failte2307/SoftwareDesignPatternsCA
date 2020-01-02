@@ -2,27 +2,26 @@ package com.bank.loan;
 
 public class ShortTermLoan implements LoanBehaviour {
 	
-	final double lowerInterestRate = 0.15;
-	final double midInterestRate = 0.20;
-	final double highInterestRate = 0.25;
+	private static final double LOWER_INTERESTRATE = 0.15;
+	private static final double MID_INTERESTRATE = 0.20;
+	private static final double HIGH_INTERESTRATE = 0.25;
 	
 
-		public double CalculateInterestOnLoanByTerm(int term, double loanAmount) {
-			double interestRate;
+		public double calculateInterestOnLoanByTerm(int term, double loanAmount) {
 		    if(term <= 4 ) {
-		    	double interestAmount = (loanAmount * lowerInterestRate);
+		    	double interestAmount = (loanAmount * LOWER_INTERESTRATE);
 		    	return interestAmount;
 		    }  
-		    else if (term >= 5 &&term <= 6) {
+		    else if (term == 5) {
 		    	
-		    	double interestAmount = (loanAmount * midInterestRate);
+		    	double interestAmount = (loanAmount * MID_INTERESTRATE);
 		    	return interestAmount;
 		    }
 		    else {
-		    	double interestAmount = (loanAmount * highInterestRate);
+		    	double interestAmount = (loanAmount * HIGH_INTERESTRATE);
 		    	return interestAmount;
 
 		    }
-	}
+	    }
 
 }

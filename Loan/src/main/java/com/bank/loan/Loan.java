@@ -20,7 +20,6 @@ public abstract class Loan {
 	
 	private LoanBehaviour loanBehaviour;
 	
-
     public LoanBehaviour getLoanBehaviour() {
         return loanBehaviour;
     }
@@ -29,7 +28,9 @@ public abstract class Loan {
         this.loanBehaviour = loanBehaviour;
     }
     
-    public double CalculateInterestOnLoanByTerm(int term, double loanAmount) {return loanBehaviour.CalculateInterestOnLoanByTerm(term, loanAmount); }
+    public double calculateInterestOnLoanByTerm(int term, double loanAmount){
+    	return loanBehaviour.calculateInterestOnLoanByTerm(term, loanAmount); 
+    	}
     
 	
 	public int getTerm() {

@@ -14,7 +14,7 @@ public class FactoryDriver {
 	LoanBehaviourFactory loanBehaviour = new LoanBehaviourFactory();
 	Loan shortTermLoan = new Mortgage("Jennifer", "ShortTermLoan", 14, 20000);
 	shortTermLoan.setLoanBehaviour(loanBehaviour.getBehaviourType(LoanBehaviourType.LONG_TERM_LOAN));
-	double sTLInterestAmount = shortTermLoan.CalculateInterestOnLoanByTerm(shortTermLoan.getTerm(), shortTermLoan.getLoanAmount());
+	double sTLInterestAmount = shortTermLoan.calculateInterestOnLoanByTerm(shortTermLoan.getTerm(), shortTermLoan.getLoanAmount());
 	System.out.println(sTLInterestAmount);
 	
 
