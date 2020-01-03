@@ -15,9 +15,7 @@ import com.nexmo.client.sms.messages.TextMessage;
 
 public class SMSNotification implements Observer {
 	
-	private final static Logger logger = LoggerFactory.getLogger(SMSNotification.class);
-	
-	private SuspiciousTransactionData transactionData;
+	private Subject transactionData;
 	
 	public SMSNotification(SuspiciousTransactionData transactionData) {
 		this.transactionData = transactionData;

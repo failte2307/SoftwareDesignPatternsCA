@@ -20,12 +20,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class EmailNotification implements Observer {
 	
 	
-	private SuspiciousTransactionData transactionData;
+	private Subject transactionData;
 	
-	
-	final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
-	final String username = "failte2307@gmail.com";
-	final String password = "3f6k3etc";
+	private final static String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
+	private final static String username = "failte2307@gmail.com";
+	private final static String password = "3f6k3etc";
 	
 	
 	
