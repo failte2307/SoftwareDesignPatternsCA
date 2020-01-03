@@ -16,9 +16,9 @@
         <property name="hibernate.jdbc.time_zone" value="UTC"/>
         <property name="hibernate.hbm2ddl.auto" value="update"/>
         <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql2.freesqldatabase.com/sql2308118?useTimezone=true&amp;serverTimezone=GMT"/>
-        <property name="javax.persistence.jdbc.user" value="sql2308118"/>
-        <property name="javax.persistence.jdbc.password" value="hA2%fG1*"/>
+        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql2.freemysqlhosting.net/sql2317471?useTimezone=true&amp;serverTimezone=GMT"/>
+        <property name="javax.persistence.jdbc.user" value="sql2317471"/>
+        <property name="javax.persistence.jdbc.password" value="dA3%iH8%"/>
     </properties>
 </persistence-unit>
 </persistence>
