@@ -32,9 +32,13 @@ public class SMSNotification implements Observer {
 				  .apiKey("e5c39a7d")
 				  .apiSecret("iuvAHPV3dCJajV4v")
 				  .build();
-
-				String messageText = "Hi " + customerName + "A suspicious transaction has occured in " + transactionCountry +" on the " + transactionDate + " at "+ transactionTime + 
-						"for the amount" + Double.toString(amount) +" your account has been locked please contact us via your online account you  have also been notified via email at " + email;
+		
+				String messageText = "Hi " + customerName + "A suspicious transaction has occured in " 
+				+ transactionCountry +" on the " + transactionDate + " at "+ transactionTime + 
+						"for the amount" + Double.toString(amount) +
+						" your account has been locked please contact us via your online account you  "
+						+ "have also been notified via email at " 
+						+ email;
 				TextMessage message = new TextMessage("Goliath", mobileNo , messageText);
 				SmsSubmissionResponse response = null;
 			    try {
