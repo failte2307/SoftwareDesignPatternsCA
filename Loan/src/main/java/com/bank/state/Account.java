@@ -7,14 +7,13 @@ public class Account {
 	private double balance;
 	private String accountStateDetails;
 	private double interestRate;
-	
-	
-	 AccountState highInterestAccountState;
-	 AccountState lowInterestAccountState;
-	 AccountState overdrawnAccountState;
-	 AccountState newInterestAccountState;
+		
+	private AccountState highInterestAccountState;
+	private  AccountState lowInterestAccountState;
+	private AccountState overdrawnAccountState;
+	private AccountState newInterestAccountState;
 	 
-	 AccountState state = newInterestAccountState;
+	private AccountState state = newInterestAccountState;
 	 
 		
 		public Account(int accountId, String accountHolder, double balance, String accountState, double interestRate) {
