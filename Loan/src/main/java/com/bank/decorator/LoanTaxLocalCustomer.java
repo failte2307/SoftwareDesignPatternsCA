@@ -6,7 +6,6 @@ public class LoanTaxLocalCustomer extends LoanDecorator {
 	
 	private Loan loanFixedCharges;
 
-
 	public LoanTaxLocalCustomer(Loan loanFixedCharges) {
 		this.loanFixedCharges = loanFixedCharges;
 	}

@@ -8,7 +8,6 @@ public class MidTermCustomerDiscount extends LoanDecorator {
 	
 	private Loan loanFixedCharges;
 
-
 	public MidTermCustomerDiscount(Loan loanFixedCharges) {
 		this.loanFixedCharges = loanFixedCharges;
 	}
@@ -20,6 +19,5 @@ public class MidTermCustomerDiscount extends LoanDecorator {
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Mid term Loan discount,";
 	}
-
-
+	
 }

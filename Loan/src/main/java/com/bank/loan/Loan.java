@@ -111,14 +111,12 @@ public abstract class Loan {
 		this.interestAmount = interestAmount;
 	}
 	
-	public abstract double additionalExpenses();
-	
 	public String loanFixedChargesDescription = "no additional Charges";
-		
+	
+	public abstract double additionalExpenses();		
 	
 	public String getLoanFixedChargesDescription() {
-			return loanFixedChargesDescription;
-		
+			return loanFixedChargesDescription;	
 	}
 
 } 

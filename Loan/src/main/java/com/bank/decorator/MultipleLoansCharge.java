@@ -9,17 +9,15 @@ public class MultipleLoansCharge extends LoanDecorator {
 	 public MultipleLoansCharge(Loan loanFixedCharges) {
 		 this.loanFixedCharges = loanFixedCharges;
 	 }
-	 	 
-    
+	 
+	 @Override
 	 public double additionalExpenses() {	
 		return  300 + loanFixedCharges.additionalExpenses();
-	   }
+	 }
 
-
-	public String getLoanFixedChargesDescription() {
+	 @Override
+	 public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Multiple Loans charges, ";
-	}
-
-
+	 }
 
 }

@@ -10,6 +10,7 @@ public class LoanInsuranceStandardPolicy extends LoanDecorator{
 		 this.loanFixedCharges = loanFixedCharges;
 	 }
      
+	 @Override
 	 public double additionalExpenses() {	
 		return  300 + loanFixedCharges.additionalExpenses();
 	   }
@@ -19,7 +20,7 @@ public class LoanInsuranceStandardPolicy extends LoanDecorator{
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance standard policy,";
 	}
 
-    }
+}
 
  
 	

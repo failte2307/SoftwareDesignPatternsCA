@@ -28,10 +28,12 @@ public class LoanController {
 		Loan mortgageLoan = new Mortgage();
 		mortgageLoan = new LoanTaxLocalCustomer(mortgageLoan);
 		mortgageLoan = new LoanInsuranceStandardPolicy(mortgageLoan);
-		mortgageLoan = new MidTermCustomerDiscount(mortgageLoan);	
+		mortgageLoan = new MidTermCustomerDiscount(mortgageLoan);
+		
 		Logging.getInstance().infoLog("Calculated additional charges for " + 
 		mortgageLoan.getLoanFixedChargesDescription() + " Charges Cost " + 
 	    mortgageLoan.additionalExpenses());		
+		
 		AdditionalCharges additionalCharges = new AdditionalCharges(mortgageLoan.additionalExpenses(), 
 				mortgageLoan.getLoanFixedChargesDescription());
 		return additionalCharges;
