@@ -1,13 +1,15 @@
 package com.bank.decorator;
 
+import com.bank.loan.Loan;
+
 public class MidTermCustomerDiscount extends LoanDecorator {
 	
 	private final double discount = 0.90;
 	
-	private LoanFixedCharges loanFixedCharges;
+	private Loan loanFixedCharges;
 
 
-	public MidTermCustomerDiscount(LoanFixedCharges loanFixedCharges) {
+	public MidTermCustomerDiscount(Loan loanFixedCharges) {
 		this.loanFixedCharges = loanFixedCharges;
 	}
 

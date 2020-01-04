@@ -37,10 +37,11 @@ public class EmailNotification implements Observer {
 	@Override
 	public void update(String customerName, double amount, String transactionDate, String transactionTime,
 			String transactionCountry, String email, String mobileNo) {
-		    sendEmail(customerName, amount, transactionDate, transactionTime, transactionCountry,email, mobileNo);	
+		    sendEmail(customerName, amount, transactionDate, transactionTime, email, mobileNo, transactionCountry);	
 	}
 	
-	public void sendEmail(String customerName, double amount, String transactionDate, String transactionTime, String email, String mobileNo, String transactionCountry) {
+	public void sendEmail(String customerName, double amount, String transactionDate,
+			String transactionTime, String email, String mobileNo, String transactionCountry) {
 	Properties props = System.getProperties();
 	props = configureProperties();	
     try {
@@ -72,16 +73,17 @@ public class EmailNotification implements Observer {
 		  return props;
 	}	
 	
-	public void configureMessage(Message msg, String customerName, String transactionDate, String transactionTime, String mobileNo, String transactionCountry, double amount ) {
+	public void configureMessage(Message msg, String customerName, String transactionDate, String transactionTime,
+			String mobileNo, String transactionCountry, double amount ) {
 		try {
 		InternetAddress sender = new InternetAddress("failte2307@gmail.com", "Goliath National Bank");
 		msg.setFrom(sender);
         InternetAddress[] addresses = InternetAddress.parse("shaunalily9@gmail.com"); 
         msg.addRecipients(RecipientType.TO, addresses);
         msg.setSubject("Golaith National Bank - Unusal Activity"); 
-        msg.setText("Hi, " + customerName + " We recently noticed some suspicious activity on your recent transactions. On the " + transactionDate
-        		+ " at " + transactionTime + " for the amount of " + Double.toString(amount) + " a suspicious transaction took place in " +  
-        		transactionCountry +" Please log in to you Goliath Mobile app to confirm this was your transaction" +
+        msg.setText("Hi, " + customerName + " We recently noticed some suspicious activity on your recent transactions. On the " + 
+        transactionDate+ " at " + transactionTime + " for the amount of " + Double.toString(amount) + " a suspicious transaction "
+        		+ "took place in " +  transactionCountry +" Please log in to you Goliath Mobile app to confirm this was your transaction" +
         		" or contact us directly you have also been contacted on your phone " + mobileNo + ". Thank you"); 
         msg.setSentDate(new Date()); 
 		}

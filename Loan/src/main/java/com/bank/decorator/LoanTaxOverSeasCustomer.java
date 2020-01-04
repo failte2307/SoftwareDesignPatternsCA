@@ -1,11 +1,12 @@
 package com.bank.decorator;
 
+import com.bank.loan.Loan;
+
 public class LoanTaxOverSeasCustomer extends LoanDecorator {
 	
-	private LoanFixedCharges loanFixedCharges;
+	private Loan loanFixedCharges;
 
-
-	public LoanTaxOverSeasCustomer(LoanFixedCharges loanFixedCharges) {
+	public LoanTaxOverSeasCustomer(Loan loanFixedCharges) {
 		this.loanFixedCharges = loanFixedCharges;
 	}
 
@@ -18,7 +19,4 @@ public class LoanTaxOverSeasCustomer extends LoanDecorator {
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan Tax over seas customer,";
 	}
-
-
-
 }

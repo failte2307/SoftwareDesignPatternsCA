@@ -40,9 +40,6 @@ public class CustomerDAO {
 		this.entityManager = entityManager;
 	}
 	
-	
-	
-
 	public CustomerDTO getCustomerById(int customerId){
 		List <CustomerDTO> customerList = new ArrayList<CustomerDTO>();		
 		List<Customer>foundCustomer =  entityManager.createQuery("Select e from Customer e Where e.id = :customerId", Customer.class)

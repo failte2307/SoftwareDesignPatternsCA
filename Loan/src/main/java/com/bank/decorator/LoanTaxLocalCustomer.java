@@ -4,10 +4,10 @@ import com.bank.loan.Loan;
 
 public class LoanTaxLocalCustomer extends LoanDecorator {
 	
-	private LoanFixedCharges loanFixedCharges;
+	private Loan loanFixedCharges;
 
 
-	public LoanTaxLocalCustomer(LoanFixedCharges loanFixedCharges) {
+	public LoanTaxLocalCustomer(Loan loanFixedCharges) {
 		this.loanFixedCharges = loanFixedCharges;
 	}
 
@@ -20,11 +20,4 @@ public class LoanTaxLocalCustomer extends LoanDecorator {
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan Tax local Customer,";
 	}
-	
-	LoanTaxLocalCustomer(){
-		
-	}
-
-
-
 }

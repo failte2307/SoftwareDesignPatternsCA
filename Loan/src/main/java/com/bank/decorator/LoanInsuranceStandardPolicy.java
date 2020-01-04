@@ -4,26 +4,20 @@ import com.bank.loan.Loan;
 
 public class LoanInsuranceStandardPolicy extends LoanDecorator{
 
-	 private LoanFixedCharges loanFixedCharges;
+	 private Loan loanFixedCharges;
 	 
-	 public LoanInsuranceStandardPolicy(LoanFixedCharges loanFixedCharges) {
+	 public LoanInsuranceStandardPolicy(Loan loanFixedCharges) {
 		 this.loanFixedCharges = loanFixedCharges;
 	 }
-	 	 
      
 	 public double additionalExpenses() {	
 		return  300 + loanFixedCharges.additionalExpenses();
 	   }
 
-
 	@Override
 	public String getLoanFixedChargesDescription() {
 		return loanFixedCharges.getLoanFixedChargesDescription() +" Loan insurance standard policy,";
 	}
-
-
-
-
 
     }
 

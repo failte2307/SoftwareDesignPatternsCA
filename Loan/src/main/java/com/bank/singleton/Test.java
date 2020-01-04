@@ -9,6 +9,7 @@ import com.bank.decorator.LoanFixedCharges;
 import com.bank.decorator.LoanInsuranceStandardPolicy;
 import com.bank.decorator.LoanTaxLocalCustomer;
 import com.bank.decorator.MidTermCustomerDiscount;
+import com.bank.loan.Loan;
 import com.bank.loan.Mortgage;
 
 @RestController
@@ -19,7 +20,7 @@ public class Test {
 	public double getAdditionalCharges() {
 		try {
 			Logging.getInstance().infoLog("test");
-		LoanFixedCharges mortgageLoan = new Mortgage();
+		Loan mortgageLoan = new Mortgage();
 		mortgageLoan = new LoanTaxLocalCustomer(mortgageLoan);
 		mortgageLoan = new LoanInsuranceStandardPolicy(mortgageLoan);
 		mortgageLoan = new MidTermCustomerDiscount(mortgageLoan);	

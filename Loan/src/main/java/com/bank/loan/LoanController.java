@@ -25,14 +25,13 @@ public class LoanController {
 	@ResponseBody
 	public AdditionalCharges getAdditionalChargesMort() {
 		try {
-		LoanFixedCharges mortgageLoan = new Mortgage();
+		Loan mortgageLoan = new Mortgage();
 		mortgageLoan = new LoanTaxLocalCustomer(mortgageLoan);
 		mortgageLoan = new LoanInsuranceStandardPolicy(mortgageLoan);
 		mortgageLoan = new MidTermCustomerDiscount(mortgageLoan);	
 		Logging.getInstance().infoLog("Calculated additional charges for " + 
 		mortgageLoan.getLoanFixedChargesDescription() + " Charges Cost " + 
-	    mortgageLoan.additionalExpenses());	
-		
+	    mortgageLoan.additionalExpenses());		
 		AdditionalCharges additionalCharges = new AdditionalCharges(mortgageLoan.additionalExpenses(), 
 				mortgageLoan.getLoanFixedChargesDescription());
 		return additionalCharges;
@@ -49,7 +48,7 @@ public class LoanController {
 	@ResponseBody
 	public AdditionalCharges getAdditionalChargesPers() {
 		try {
-		LoanFixedCharges mortgageLoan = new PersonalLoan();
+		Loan mortgageLoan = new PersonalLoan();
 		mortgageLoan = new LoanTaxOverSeasCustomer(mortgageLoan);
 		mortgageLoan = new LoanInsuranceDeluxePolicy(mortgageLoan);
 		mortgageLoan = new LongTermCustomerDiscount(mortgageLoan);	

@@ -1,10 +1,12 @@
 package com.bank.decorator;
 
-public class MultipleLoansCharge {
+import com.bank.loan.Loan;
+
+public class MultipleLoansCharge extends LoanDecorator {
 	
-	 private LoanFixedCharges loanFixedCharges;
+	 private Loan loanFixedCharges;
 	 
-	 public MultipleLoansCharge(LoanFixedCharges loanFixedCharges) {
+	 public MultipleLoansCharge(Loan loanFixedCharges) {
 		 this.loanFixedCharges = loanFixedCharges;
 	 }
 	 	 

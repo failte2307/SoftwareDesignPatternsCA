@@ -2,17 +2,7 @@ package com.bank.loan;
 
 import com.bank.decorator.LoanFixedCharges;
 
-public class STL extends Loan implements LoanFixedCharges {
-	
-	private double fixedCharges;
-
-	public double getFixedCharges() {
-		return fixedCharges;
-	}
-
-	public void setFixedCharges(double fixedCharges) {
-		this.fixedCharges = fixedCharges;
-	}
+public class STL extends Loan{
 	
 	public STL( String issuedBy,String type, int term, double loanAmount, double totalRepayment, double interestAmount) {
 		super(issuedBy,type,term, loanAmount, totalRepayment, interestAmount);
@@ -28,12 +18,7 @@ public class STL extends Loan implements LoanFixedCharges {
 	}
 	
 	public STL() {
-		
-	}
-
-	@Override
-	public String getLoanFixedChargesDescription() {
-    return "Shortterm loan, additional addons :";
+		loanFixedChargesDescription = "Shortterm loan, additional addons :";		
 	}
 
 

@@ -7,7 +7,7 @@ import com.bank.singleton.Logging;
 
 public class DecoratorDriver {
 	public static void main(String args[]) {
-		LoanFixedCharges mortgagesLoan = new Mortgage();
+		Loan mortgagesLoan = new Mortgage();
 		mortgagesLoan = new LoanTaxLocalCustomer(mortgagesLoan);
 		mortgagesLoan = new LoanInsuranceStandardPolicy(mortgagesLoan);
 		mortgagesLoan = new MidTermCustomerDiscount(mortgagesLoan);

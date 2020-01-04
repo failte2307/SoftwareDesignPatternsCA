@@ -3,7 +3,7 @@ package com.bank.loan;
 import com.bank.decorator.LoanDecorator;
 import com.bank.decorator.LoanFixedCharges;
 
-public class PersonalLoan extends Loan implements LoanFixedCharges{
+public class PersonalLoan extends Loan {
 	
 	
 	public PersonalLoan( String issuedBy,String type, int term, double loanAmount, double totalRepayment, double interestAmount) {
@@ -15,20 +15,12 @@ public class PersonalLoan extends Loan implements LoanFixedCharges{
 	}
 
     public PersonalLoan() {
-    	
+    	loanFixedChargesDescription = "Personal Loan, additional addons : ";
     }
     
 	public double additionalExpenses() {
 		return 100;
 	}
-
-	@Override
-	public String getLoanFixedChargesDescription() {
-		 return "Personal Loan, additional addons : ";
-	}
-
-
 	
-		
-	}
+}
 

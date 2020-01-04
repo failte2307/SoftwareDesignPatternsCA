@@ -14,3 +14,5 @@ INFO:  02-01-2020 02:36:39  Calculated additional charges for Personal Loan, add
 INFO:  02-01-2020 02:42:18  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance standard policy, Loan term Loan discount, Charges Cost 850.0
 INFO:  02-01-2020 03:45:21  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance Deluxe policy, Loan term Loan discount, Charges Cost 850.0
 INFO:  02-01-2020 03:58:03  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+INFO:  04-01-2020 02:50:41  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance Deluxe policy, Loan term Loan discount, Charges Cost 850.0
+INFO:  04-01-2020 02:54:50  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance Deluxe policy, Loan term Loan discount, Charges Cost 850.0

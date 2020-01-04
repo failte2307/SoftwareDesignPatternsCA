@@ -6,7 +6,4 @@ public interface LoanFixedCharges {
 	
 	public  String getLoanFixedChargesDescription();
 	
-	
-	
-
 }

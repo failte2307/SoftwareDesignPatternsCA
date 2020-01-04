@@ -17,7 +17,7 @@ public abstract class Loan {
     protected double totalRepayment;
     
     protected double interestAmount;
-	
+    
 	private LoanBehaviour loanBehaviour;
 	
     public LoanBehaviour getLoanBehaviour() {
@@ -111,5 +111,14 @@ public abstract class Loan {
 		this.interestAmount = interestAmount;
 	}
 	
+	public abstract double additionalExpenses();
+	
+	public String loanFixedChargesDescription = "no additional Charges";
+		
+	
+	public String getLoanFixedChargesDescription() {
+			return loanFixedChargesDescription;
+		
+	}
 
 } 
