@@ -7,16 +7,13 @@ public class StateDriver {
 		 System.out.println(account.checkState());
 		 account.getInterestRate();
 		 System.out.println(account.addInterest());	 
-		 
-		 
+		 	 
 		 account.withdraw(10499);
 		 System.out.println(account.checkState());
 		 System.out.println(account.addInterest());
-		 
-		 
+		 	 
 		 account.withdraw(10);
 		 System.out.println(account.checkState());
-		 
 		 
 		 account.deposit(10);
 		 System.out.println(account.checkState());

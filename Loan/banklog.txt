@@ -23,3 +23,16 @@ INFO:  04-01-2020 20:08:11  test
 INFO:  04-01-2020 20:20:46  test
 INFO:  04-01-2020 20:27:06  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
 INFO:  04-01-2020 20:27:15  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance Deluxe policy, Loan term Loan discount, Charges Cost 850.0
+INFO:  04-01-2020 20:36:44  test
+INFO:  04-01-2020 20:36:47  Calculated additional charges for Personal Loan, additional addons :  Loan Tax over seas customer, Loan insurance Deluxe policy, Loan term Loan discount, Charges Cost 850.0
+INFO:  04-01-2020 20:43:58  Calculated additional charges for Mortgage Loan, additional addons :  Loan Tax local Customer, Loan insurance standard policy, Mid term Loan discount, Charges Cost 810.0
+Error:  04-01-2020 21:20:59  null
+Error:  04-01-2020 21:22:13  null
+INFO:  04-01-2020 21:24:43  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:24:56  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:32:28  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:32:36  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:33:02  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:33:26  Current account state: LowInterestAccountState
+INFO:  04-01-2020 21:33:26  Current account state: Overdrawn Account
+Error:  04-01-2020 21:40:48  null

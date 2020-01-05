@@ -12,22 +12,24 @@ public class HighInterestAccountState implements AccountState {
 		 this.account = account;
 	 }
 
+	@Override
 	public boolean withdraw(double amount) {
 		account.setBalance(account.getBalance() - amount);
 		updateState();
         return true;
 	}
 
+	@Override
 	public boolean deposit(double amount) {
 		account.setBalance(account.getBalance() + amount);
 		updateState();
 		return true;
 	}
 
+	@Override
 	public double viewBalance() {
 		return account.getBalance();
 	}
-
 
 	@Override
 	public String checkState() {
@@ -52,15 +54,21 @@ public class HighInterestAccountState implements AccountState {
 		else if(account.getBalance() >= OverdrawnInterestCap && account.getBalance() < HigherInterestCap)
 		{
 			account.setAccountState(account.getLowInterestAccountState());
-		}
-		
-		
+		}			
 	}
 
 	@Override
 	public void setAccountDetails() {
 		account.setAccountStateDetails(AccountStateDetails);
 		account.setInterestRate(HigherInterestRate);	
+	}
+
+	public Account getAccount() {
+		return account;
+	}
+
+	public void setAccount(Account account) {
+		this.account = account;
 	}
 
 }

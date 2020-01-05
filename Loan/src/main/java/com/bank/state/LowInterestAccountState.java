@@ -2,7 +2,6 @@ package com.bank.state;
 
 public class LowInterestAccountState implements AccountState {
 	
-	
 	 private Account account;
      private final double overdrawnInterestCap = 0;
      private final double higherInterestCap = 10000;
@@ -29,7 +28,6 @@ public class LowInterestAccountState implements AccountState {
 		return account.getBalance();
 	}
 
-
 	@Override
 	public String checkState() {
 		return "LowInterestAccountState";
@@ -53,9 +51,7 @@ public class LowInterestAccountState implements AccountState {
 		else if(account.getBalance() >= higherInterestCap)
 		{
 			account.setAccountState(account.getHighInterestAccountState());
-		}
-		
-		
+		}	
 	}
 
 	@Override

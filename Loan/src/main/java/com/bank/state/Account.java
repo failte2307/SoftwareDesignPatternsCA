@@ -16,7 +16,8 @@ public class Account {
 	private AccountState state = newInterestAccountState;
 	 
 		
-		public Account(int accountId, String accountHolder, double balance, String accountState, double interestRate) {
+		public Account(int accountId, String accountHolder, double balance, 
+				String accountState, double interestRate) {
 			this.accountId = accountId;
 			this.accountHolder = accountHolder;
 			this.balance = balance;
@@ -59,8 +60,6 @@ public class Account {
 			state.setAccountDetails();
 		}
 		
-		
-
 		public int getAccountId() {
 			return accountId;
 		}
@@ -129,6 +128,17 @@ public class Account {
 			this.interestRate = interestRate;
 		}
 
+		public Account(AccountDTO dto) {
+			this.accountId = dto.getAccountId();
+			this.accountHolder = dto.getAccountHolder();
+			this.balance = dto.getBalance();
+			this.accountStateDetails = dto.getAccountStateDetails();
+			this.interestRate = dto.getInterestRate();
+		}
+		
+	    public Account(){
+			
+		}
 
 	
 }

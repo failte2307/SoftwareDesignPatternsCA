@@ -2905,3 +2905,715 @@ java.lang.RuntimeException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:25:49.322
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:49:53.647
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:49:53.667
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:49:55.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:49:55.727
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:50:16.338
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:50:16.344
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:54:59.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:54:59.330
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:58:45.053
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:58:45.060
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:59:21.651
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:59:21.657
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:59:28.795
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 20:59:28.802
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:00:07.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:00:07.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:00:48.663
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:00:48.669
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:02:10.816
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:02:10.821
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:04:04.506
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:04:04.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:04:48.740
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:04:48.746
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:05:32.189
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:05:32.193
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:42.411
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:42.414
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:42.417
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:42.419
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:44.681
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:44.684
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:44.687
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:44.691
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Failure to find org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.528
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.557
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.559
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.631
+!MESSAGE The POM for org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.633
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.mavin.plugins:mavin-compiler-plugin:3.1: Plugin org.apache.mavin.plugins:mavin-compiler-plugin:3.1 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.mavin.plugins:mavin-compiler-plugin:jar:3.1 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:06:46.638
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:11:01.904
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:11:01.909
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:24.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:24.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:25.548
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:25.554
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:26.604
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:12:26.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:17:41.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:17:41.162
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:19:14.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:19:14.345
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:19:15.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:19:15.427
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:23:06.199
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:23:06.202
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:24:36.718
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:24:36.723
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:25:58.471
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:25:58.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:32:57.168
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:32:57.172
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:32:59.322
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:32:59.324
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:11.139
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:11.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:13.189
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:13.192
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:21.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:22.007
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:41.690
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:41.695
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:43.838
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:33:43.841
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:38:26.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:38:26.188
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:38:32.180
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:38:32.185
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:41:57.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:41:57.974
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:42:50.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:42:50.225
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-04 21:45:13.767
+!MESSAGE Server LoanappServer was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-04 21:48:26.209
+!MESSAGE Server LoanappServer was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-04 21:50:40.713
+!MESSAGE Server LoanappServer was unable to start within 90 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:03:22.291
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:03:22.296
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:36:38.198
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:36:38.204
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:02.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:02.161
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:14.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:14.425
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:27.938
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:27.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:32.458
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:37:32.463
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:17.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:17.518
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:21.886
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:21.890
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:27.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:27.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:35.125
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:35.129
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:39.772
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:39.777
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:52:36.100
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:52:36.105
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:40:52.116
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:40:52.121
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:40:57.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:40:57.740
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:56:52.866
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 23:56:52.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:00:48.399
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:00:48.403
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:00:55.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:00:55.976
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:01:06.068
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:01:06.072
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:01:14.967
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:01:14.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:12.948
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:12.954
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:24.646
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:24.651
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:39.608
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:39.614
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:42.147
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:29:42.152
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:55:24.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:55:24.024
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:55:27.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:55:27.119
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-05 00:57:23.544
+!MESSAGE Server LoanappServer was unable to start within 90 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:57:43.439
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:57:43.444
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-01-05 00:57:46.788
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.788
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:579)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.788
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\maven\loanApp\bank\pom.properties.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\maven\loanApp\bank\pom.properties.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:579)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.789
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\maven\loanApp\bank\pom.xml.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\m2e-wtp\web-resources\META-INF\maven\loanApp\bank\pom.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:571)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.789
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\app\app.plantuml.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\app\app.plantuml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:579)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.789
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\loan\loan.plantuml.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\loan\loan.plantuml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:571)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.789
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\observer\observer.plantuml.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\bank\observer\observer.plantuml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:571)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2020-01-05 00:57:46.789
+!MESSAGE File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\logging\Log4j2.xml.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\Mark\eclipse-workspace\masterLoanApp\Loan\target\classes\com\logging\Log4j2.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:271)
+	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:498)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:579)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.wst.server.core.util.PublishHelper.copy(PublishHelper.java:563)
+	at org.eclipse.wst.server.core.util.PublishHelper.publishFull(PublishHelper.java:539)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.publishDir(PublishOperation2.java:134)
+	at org.eclipse.jst.server.tomcat.core.internal.PublishOperation2.execute(PublishOperation2.java:84)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.performTasks(ServerBehaviourDelegate.java:1337)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:57:47.032
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 00:57:47.037
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-05 00:59:30.942
+!MESSAGE Server LoanappServer was unable to start within 90 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:04:57.173
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:04:57.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:37:34.616
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:37:34.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-01-05 01:41:08.104
+!MESSAGE Server LoanappServer was unable to start within 145 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:41:48.699
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:41:48.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:41:58.213
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:41:58.218
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:42:10.205
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:42:10.209
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:47:53.761
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:47:53.767
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:59:15.299
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 01:59:15.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:10:42.106
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:10:42.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:12:04.280
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:12:04.286
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:13:51.690
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:13:51.694
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:02.006
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:02.009
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:17.661
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:17.667
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:29.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:14:29.912
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:21:58.144
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 02:21:58.333
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

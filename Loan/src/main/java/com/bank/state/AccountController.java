@@ -1,8 +1,10 @@
 package com.bank.state;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,31 +14,15 @@ import com.bank.singleton.Logging;
 @RestController
 public class AccountController {
 	
-	@RequestMapping(method = RequestMethod.GET, produces="application/json", value="/create/account")
+	@RequestMapping(method = RequestMethod.GET, produces="application/json", value="/account/withdraw/{amount}")
 	@ResponseBody
-	public Account getAccountStates(@RequestBody Account account) {
+	public AccountDTO getAccountStates(@PathVariable("amount") int amount ) {
 		try {
-			 Logging.getInstance().infoLog("Current account state: " +account.checkState());
-			 account.getInterestRate();
-			 account.addInterest();	
-			 Logging.getInstance().infoLog("Account Balance is: " + account.getBalance());
-			 
-			 account.withdraw(10499);
-			 Logging.getInstance().infoLog("Current account state: " + account.checkState());
-			 account.addInterest();	
-			 Logging.getInstance().infoLog("Account Balance is: " + account.getBalance());
-			 account.withdraw(10);
-			 
-			 Logging.getInstance().infoLog("Current account state: " + account.checkState());	 
-			 account.deposit(10);
-			 
-			 Logging.getInstance().infoLog("Current account state: " + account.checkState()); 
-			 account.deposit(10000);
-			 
-			 Logging.getInstance().infoLog("Current account state: " + account.checkState());
-			 account.setAccountDetails();
-			 
-			 return account;
+			Account account = new Account(1,"Mark",10000,"Created Account",0);
+			account.withdraw(amount);
+			account.setAccountDetails();
+			AccountDTO accountdto = new AccountDTO(account);
+			return accountdto;
 		}
 		catch (Exception e) {
 			Logging.getInstance().errorLog(e.getMessage());
