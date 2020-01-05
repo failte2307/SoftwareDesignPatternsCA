@@ -26,7 +26,8 @@ public class PrintAccount extends Printer {
 				"\n\n Account ID : " + account.getAccountId() +
 				"\n\n Type of Account : " + account.getAccountStateDetails() +
 				"\n\n Account Balance : " + account.getBalance() +
-				"\n\n Account Interest Rate : " + account.getInterestRate();
+				"\n\n Account Interest Rate : " + account.getInterestRate() +
+		        "\n\n ** Mortgages are subject to the rules laid out in EBC legigislation 2.4.2 **";
 	}
 
 }
