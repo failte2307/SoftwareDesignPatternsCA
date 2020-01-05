@@ -11,15 +11,12 @@ public class FactoryDriver {
 	
 	public static void main (String args[]) {
 
-	LoanBehaviourFactory loanBehaviour = new LoanBehaviourFactory();
-	Loan shortTermLoan = new Mortgage("Jennifer", "ShortTermLoan", 14, 20000);
-	shortTermLoan.setLoanBehaviour(loanBehaviour.getBehaviourType(LoanBehaviourType.LONG_TERM_LOAN));
-	double sTLInterestAmount = shortTermLoan.calculateInterestOnLoanByTerm(shortTermLoan.getTerm(), shortTermLoan.getLoanAmount());
-	System.out.println(sTLInterestAmount);
-	
-
-	
-        	
+	LoanBehaviourFactoryCreator loanBehaviourFactory = new LoanBehaviourFactory();
+	Loan longTermLoan = new Mortgage("Jennifer", "ShortTermLoan", 14, 20000);
+	longTermLoan.setLoanBehaviour(loanBehaviourFactory.getBehaviourType(LoanBehaviourType.LONG_TERM_LOAN));
+	double sTLInterestAmount = longTermLoan.calculateInterestOnLoanByTerm(longTermLoan.getTerm(), 
+			longTermLoan.getLoanAmount());
+	System.out.println(sTLInterestAmount);   	
 	}
         }
 

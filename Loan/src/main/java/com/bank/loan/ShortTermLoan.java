@@ -1,7 +1,15 @@
 package com.bank.loan;
 
+import com.bank.factory.LoanBehaviourFactoryCreator;
+
 public class ShortTermLoan implements LoanBehaviour {
 	
+	
+	public ShortTermLoan() {
+	}
+
+
+
 	private static final double LOWER_INTERESTRATE = 0.15;
 	private static final double MID_INTERESTRATE = 0.20;
 	private static final double HIGH_INTERESTRATE = 0.25;
