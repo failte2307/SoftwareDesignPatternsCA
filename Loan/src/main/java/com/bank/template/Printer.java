@@ -8,7 +8,7 @@ public abstract class Printer {
 	private SimpleDateFormat simpleDate = new SimpleDateFormat("dd/MM/yyyy HH:mm"); 
 	private Date date = new Date();
 	
-	public String printBankDocument() {		
+	public final String printBankDocument() {		
 		
 			StringBuilder bankDocument = new StringBuilder();
 		
